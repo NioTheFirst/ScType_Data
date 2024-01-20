@@ -1,0 +1,4 @@
+[*c], DelegatedStaking
+[t], _stake, amount,  f: 0
+[t], _sharesToTokens, rate, f:40
+[t], addValidator, commissionRate, f:40

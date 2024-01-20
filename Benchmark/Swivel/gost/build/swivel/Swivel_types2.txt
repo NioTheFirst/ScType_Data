@@ -1,0 +1,48 @@
+[*c], Swivel
+[sef], Hash, order
+[sef], Hash, message
+[sef], Sig, recover
+[sef], MP, cTokenAddress, 1, {c, -1, -1, 0, CTOK}
+[sef], MP, custodialInitiate
+[sef], MP, redeemZcToken
+[sef], MP, redeemVaultInterest
+[sef], CTOK, redeemUnderlying
+[sef], CTOK, mint
+[sef], TOKE, balanceOf, 1, {c, -1, -1, 0}
+[t], global, marketPlace, -1, -1, 0, MP
+[tref], fenominator
+[t], global, filled
+[t], global, cancelled
+[t], global, domain
+[t], global, admin
+[t], global, HOLD
+[t], global, Balance, 1, -1, 0
+[t], global, withdrawals
+[t], global, NAME
+[t], global, VERSION
+[t], initiate, o
+[t], initiate, a, 1, -1, 0
+[t], initiate, c
+[t], exitVaultFillingVaultInitiate, o
+[t], exitVaultFillingVaultInitiate, a, 1, -1, 0
+[t], exitVaultFillingVaultInitiate, c
+[t], exit, o
+[t], exit, a, 1, -1, 0
+[t], exit, c
+[t], cancel, o
+[t], cancel, a, 1, -1, 0
+[t], cancel, c
+[t], scheduleWithdrawal, e
+[t], withdraw, e, -1, -1, 0, TOKE
+[t], splitUnderlying, u
+[t], splitUnderlying, m
+[t], splitUnderlying, a, 1, -1, 0
+[t], combineTokens, u
+[t], combineTokens, m
+[t], combineTokens, a, 1, -1, 0
+[t], redeemZcToken, u
+[t], redeemZcToken, m
+[t], redeemZcToken, a, 1, -1, 0
+[t], redeemVaultInterest, u
+[t], redeemVaultInterest, m
+[t], redeemVaultInterest, a, 1, -1, 0

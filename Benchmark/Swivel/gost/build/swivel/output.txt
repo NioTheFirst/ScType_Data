@@ -1,0 +1,7220 @@
+Erc20
+CErc20
+MarketPlace
+Hash
+Sig
+Swivel
+contract name: Erc20
+WARNING!!!!
+Erc20_types.txt
+Finance File not Found
+Type File not found.
+[x] Erc20 not run
+contract name: CErc20
+WARNING!!!!
+CErc20_types.txt
+Finance File not Found
+Type File not found.
+[x] CErc20 not run
+contract name: MarketPlace
+WARNING!!!!
+MarketPlace_types.txt
+Finance File not Found
+Type File not found.
+[x] MarketPlace not run
+contract name: Hash
+WARNING!!!!
+Hash_types.txt
+Finance File not Found
+Type File not found.
+[x] Hash not run
+contract name: Sig
+WARNING!!!!
+Sig_types.txt
+Finance File not Found
+Type File not found.
+[x] Sig not run
+contract name: Swivel
+WARNING!!!!
+Swivel_types.txt
+Finance file: Swivel_ftypes.txt
+"Swivel_types.txt" opened successfully.
+[*c], Swivel
+
+[sef], Hash, order
+
+[sef], Hash, message
+
+[sef], Sig, recover
+
+[xf], initiate
+
+[xf], exit
+
+[xf], cancel
+
+[xf], scheduleWithdrawal
+
+[xf], withdraw
+
+[xf], splitUnderlying
+
+[xf], combineTokens
+
+[xf], redeemZcToken
+
+[xf], redeemVaultInterest
+
+[t], global, marketPlace
+
+[tref], fenominator
+
+[t], global, filled
+
+[t], global, cancelled
+
+[t], global, domain
+
+[t], global, admin
+
+[t], global, HOLD
+
+[t], global, Balance, 1, -1, 0
+
+[t], global, withdrawals
+
+[t], global, NAME
+
+[t], global, VERSION
+
+
+
+[t], exitVaultFillingVaultInitiate, o
+
+[t], exitVaultFillingVaultInitiate, a, 1, -1, 0
+
+[t], exitVaultFillingVaultInitiate, c
+
+Param: [*c]
+Param:  Swivel
+
+Param: [sef]
+Param:  Hash
+Param:  order
+
+Param: [sef]
+Param:  Hash
+Param:  message
+
+Param: [sef]
+Param:  Sig
+Param:  recover
+
+Param: [xf]
+Param:  initiate
+
+Param: [xf]
+Param:  exit
+
+Param: [xf]
+Param:  cancel
+
+Param: [xf]
+Param:  scheduleWithdrawal
+
+Param: [xf]
+Param:  withdraw
+
+Param: [xf]
+Param:  splitUnderlying
+
+Param: [xf]
+Param:  combineTokens
+
+Param: [xf]
+Param:  redeemZcToken
+
+Param: [xf]
+Param:  redeemVaultInterest
+
+Param: [t]
+Param:  global
+Param:  marketPlace
+
+Param: [tref]
+Param:  fenominator
+Param:  f:10
+
+Isolated Param: 10
+F num: 10
+Param: [t]
+Param:  global
+Param:  filled
+
+Param: [t]
+Param:  global
+Param:  cancelled
+
+Param: [t]
+Param:  global
+Param:  domain
+
+Param: [t]
+Param:  global
+Param:  admin
+
+Param: [t]
+Param:  global
+Param:  HOLD
+
+Param: [t]
+Param:  global
+Param:  Balance
+Param:  1
+Param:  -1
+Param:  0
+Param:  f:1
+
+Isolated Param: 1
+F num: 1
+Param: [t]
+Param:  global
+Param:  withdrawals
+
+Param: [t]
+Param:  global
+Param:  NAME
+
+Param: [t]
+Param:  global
+Param:  VERSION
+
+Param: 
+
+Param: [t]
+Param:  exitVaultFillingVaultInitiate
+Param:  o
+
+Param: [t]
+Param:  exitVaultFillingVaultInitiate
+Param:  a
+Param:  1
+Param:  -1
+Param:  0
+Param:  f:0
+
+Isolated Param: 0
+F num: 0
+Param: [t]
+Param:  exitVaultFillingVaultInitiate
+Param:  c
+
+[*] Swivel run
+Checking... constructor Visibility: public
+[x] No Binary
+Checking... initiate Visibility: external
+[o] Marked
+Checking... initiateVaultFillingZcTokenInitiate Visibility: internal
+[x] Not visible 
+Checking... initiateZcTokenFillingVaultInitiate Visibility: internal
+[x] Not visible 
+Checking... initiateZcTokenFillingZcTokenExit Visibility: internal
+[x] Not visible 
+Checking... initiateVaultFillingVaultExit Visibility: internal
+[x] Not visible 
+Checking... exit Visibility: external
+[o] Marked
+Checking... exitZcTokenFillingZcTokenInitiate Visibility: internal
+[x] Not visible 
+Checking... exitVaultFillingVaultInitiate Visibility: public
+[o] Marked
+Checking... exitVaultFillingZcTokenExit Visibility: internal
+[x] Not visible 
+Checking... exitZcTokenFillingVaultExit Visibility: internal
+[x] Not visible 
+Checking... cancel Visibility: external
+[o] Marked
+Checking... scheduleWithdrawal Visibility: external
+[o] Marked
+Checking... blockWithdrawal Visibility: external
+[x] No Binary
+Checking... withdraw Visibility: external
+[o] Marked
+Checking... setFee Visibility: external
+[x] No Binary
+Checking... splitUnderlying Visibility: external
+[o] Marked
+Checking... combineTokens Visibility: external
+[o] Marked
+Checking... redeemZcToken Visibility: external
+[o] Marked
+Checking... redeemVaultInterest Visibility: external
+[o] Marked
+Checking... validOrderHash Visibility: internal
+[x] Not visible 
+Checking... slitherConstructorConstantVariables Visibility: internal
+[x] Not visible 
+State_var: fenominator
+Finding type for fenominator...
+uint16[]
+Check copy_toekn_tuple
+([-1], [-1], ['u'], None, 10)
+----
+Type: uint16[]
+uint16[]
+uint16
+Final Type: uint16
+
+Name: fenominator Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: compound fee ratio (t)
+[*]Type fetched successfully
+State_var: filled
+Finding type for filled...
+mapping(bytes32 => uint256)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(bytes32 => uint256)
+mapping(bytes32 => uint256)
+uint256
+Final Type: uint256
+
+Name: filled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: marketPlace
+Finding type for marketPlace...
+address
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: address
+address
+Final Type: address
+
+Name: marketPlace Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: admin
+Finding type for admin...
+address
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: address
+address
+Final Type: address
+
+Name: admin Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: HOLD
+Finding type for HOLD...
+uint256
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: uint256
+uint256
+Final Type: uint256
+
+Name: HOLD Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: NAME
+Finding type for NAME...
+string
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: string
+string
+Final Type: string
+
+Name: NAME Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: VERSION
+Finding type for VERSION...
+string
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: string
+string
+Final Type: string
+
+Name: VERSION Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: cancelled
+Finding type for cancelled...
+mapping(bytes32 => bool)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(bytes32 => bool)
+mapping(bytes32 => bool)
+bool
+Final Type: bool
+
+Name: cancelled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: domain
+Finding type for domain...
+bytes32
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: bytes32
+bytes32
+Final Type: bytes32
+
+Name: domain Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: withdrawals
+Finding type for withdrawals...
+mapping(address => uint256)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(address => uint256)
+mapping(address => uint256)
+uint256
+Final Type: uint256
+
+Name: withdrawals Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: Balance
+Finding type for Balance...
+mapping(address => uint256)
+Check copy_toekn_tuple
+(1, -1, 0, None, 1)
+----
+Type: mapping(address => uint256)
+mapping(address => uint256)
+uint256
+Final Type: uint256
+
+Name: Balance Function: global
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: net balance
+[*]Type fetched successfully
+Seen contract: {} Contract name out: Erc20
+[x] Erc20 not run
+Seen contract: {'Erc20': True} Contract name out: CErc20
+[x] CErc20 not run
+Seen contract: {'Erc20': True, 'CErc20': True} Contract name out: MarketPlace
+[x] MarketPlace not run
+Seen contract: {'Erc20': True, 'CErc20': True, 'MarketPlace': True} Contract name out: Hash
+[x] Hash not run
+Seen contract: {'Erc20': True, 'CErc20': True, 'MarketPlace': True, 'Hash': True} Contract name out: Sig
+[x] Sig not run
+Seen contract: {'Erc20': True, 'CErc20': True, 'MarketPlace': True, 'Hash': True, 'Sig': True} Contract name out: Swivel
+[*] Swivel run
+Reading Function: constructor
+Function constructor not marked
+Reading Function: initiate
+wooo
+State_var: fenominator
+Finding type for fenominator...
+uint16[]
+Check copy_toekn_tuple
+([-1], [-1], ['u'], None, 10)
+----
+Type: uint16[]
+uint16[]
+uint16
+Final Type: uint16
+
+Name: fenominator Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: compound fee ratio (t)
+[*]Type fetched successfully
+State_var: filled
+Finding type for filled...
+mapping(bytes32 => uint256)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(bytes32 => uint256)
+mapping(bytes32 => uint256)
+uint256
+Final Type: uint256
+
+Name: filled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: marketPlace
+Finding type for marketPlace...
+address
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: address
+address
+Final Type: address
+
+Name: marketPlace Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: admin
+Finding type for admin...
+address
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: address
+address
+Final Type: address
+
+Name: admin Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: HOLD
+Finding type for HOLD...
+uint256
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: uint256
+uint256
+Final Type: uint256
+
+Name: HOLD Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: NAME
+Finding type for NAME...
+string
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: string
+string
+Final Type: string
+
+Name: NAME Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: VERSION
+Finding type for VERSION...
+string
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: string
+string
+Final Type: string
+
+Name: VERSION Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: cancelled
+Finding type for cancelled...
+mapping(bytes32 => bool)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(bytes32 => bool)
+mapping(bytes32 => bool)
+bool
+Final Type: bool
+
+Name: cancelled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: domain
+Finding type for domain...
+bytes32
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: bytes32
+bytes32
+Final Type: bytes32
+
+Name: domain Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: withdrawals
+Finding type for withdrawals...
+mapping(address => uint256)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(address => uint256)
+mapping(address => uint256)
+uint256
+Final Type: uint256
+
+Name: withdrawals Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: Balance
+Finding type for Balance...
+mapping(address => uint256)
+Check copy_toekn_tuple
+(1, -1, 0, None, 1)
+----
+Type: mapping(address => uint256)
+mapping(address => uint256)
+uint256
+Final Type: uint256
+
+Name: Balance Function: global
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: net balance
+[*]Type fetched successfully
+Reading Function: initiateVaultFillingZcTokenInitiate
+Function initiateVaultFillingZcTokenInitiate not marked
+Reading Function: initiateZcTokenFillingVaultInitiate
+Function initiateZcTokenFillingVaultInitiate not marked
+Reading Function: initiateZcTokenFillingZcTokenExit
+Function initiateZcTokenFillingZcTokenExit not marked
+Reading Function: initiateVaultFillingVaultExit
+Function initiateVaultFillingVaultExit not marked
+Reading Function: exit
+wooo
+State_var: fenominator
+Finding type for fenominator...
+uint16[]
+Check copy_toekn_tuple
+([-1], [-1], ['u'], None, 10)
+----
+Type: uint16[]
+uint16[]
+uint16
+Final Type: uint16
+
+Name: fenominator Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: compound fee ratio (t)
+[*]Type fetched successfully
+State_var: filled
+Finding type for filled...
+mapping(bytes32 => uint256)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(bytes32 => uint256)
+mapping(bytes32 => uint256)
+uint256
+Final Type: uint256
+
+Name: filled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: marketPlace
+Finding type for marketPlace...
+address
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: address
+address
+Final Type: address
+
+Name: marketPlace Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: admin
+Finding type for admin...
+address
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: address
+address
+Final Type: address
+
+Name: admin Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: HOLD
+Finding type for HOLD...
+uint256
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: uint256
+uint256
+Final Type: uint256
+
+Name: HOLD Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: NAME
+Finding type for NAME...
+string
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: string
+string
+Final Type: string
+
+Name: NAME Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: VERSION
+Finding type for VERSION...
+string
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: string
+string
+Final Type: string
+
+Name: VERSION Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: cancelled
+Finding type for cancelled...
+mapping(bytes32 => bool)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(bytes32 => bool)
+mapping(bytes32 => bool)
+bool
+Final Type: bool
+
+Name: cancelled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: domain
+Finding type for domain...
+bytes32
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: bytes32
+bytes32
+Final Type: bytes32
+
+Name: domain Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: withdrawals
+Finding type for withdrawals...
+mapping(address => uint256)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(address => uint256)
+mapping(address => uint256)
+uint256
+Final Type: uint256
+
+Name: withdrawals Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: Balance
+Finding type for Balance...
+mapping(address => uint256)
+Check copy_toekn_tuple
+(1, -1, 0, None, 1)
+----
+Type: mapping(address => uint256)
+mapping(address => uint256)
+uint256
+Final Type: uint256
+
+Name: Balance Function: global
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: net balance
+[*]Type fetched successfully
+Reading Function: exitZcTokenFillingZcTokenInitiate
+Function exitZcTokenFillingZcTokenInitiate not marked
+Reading Function: exitVaultFillingVaultInitiate
+Function name: exitVaultFillingVaultInitiate
+Function Visibility (test): public
+o
+Finding type for o...
+Hash.Order
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: Hash.Order
+Hash.Order
+Final Type: Hash.Order
+exitVaultFillingVaultInitiate
+o
+key
+exitVaultFillingVaultInitiate
+o
+maker
+exitVaultFillingVaultInitiate
+o
+underlying
+exitVaultFillingVaultInitiate
+o
+vault
+exitVaultFillingVaultInitiate
+o
+exit
+exitVaultFillingVaultInitiate
+o
+principal
+exitVaultFillingVaultInitiate
+o
+premium
+exitVaultFillingVaultInitiate
+o
+maturity
+exitVaultFillingVaultInitiate
+o
+expiry
+FIELDS:
+o Fields:
+^^^
+
+Name: o Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+a
+Finding type for a...
+uint256
+Check copy_toekn_tuple
+(1, -1, 0, None, 0)
+----
+Type: uint256
+uint256
+Final Type: uint256
+
+Name: a Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+[*]Type fetched successfully
+c
+Finding type for c...
+Sig.Components
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: Sig.Components
+Sig.Components
+Final Type: Sig.Components
+exitVaultFillingVaultInitiate
+c
+v
+exitVaultFillingVaultInitiate
+c
+r
+exitVaultFillingVaultInitiate
+c
+s
+FIELDS:
+c Fields:
+^^^
+
+Name: c Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+-100
+Param: 0
+    num: [-1]
+    den: [-1]
+    norm: u
+    link: None
+    fields: []
+    fintype: -1
+Param: 1
+    num: [1]
+    den: [-1]
+    norm: 0
+    link: None
+    fields: []
+    fintype: 0
+Param: 2
+    num: [-1]
+    den: [-1]
+    norm: u
+    link: None
+    fields: []
+    fintype: -1
+clearning node...
+clearing ir...?
+o_1 (-> [])(Hash.Order) := ϕ(['REF_132'])
+has variable
+[i] o cleared
+clearing ir...?
+a_1(uint256) := ϕ(['REF_133'])
+has variable
+[i] a cleared
+clearing ir...?
+c_1 (-> [])(Sig.Components) := ϕ(['REF_134'])
+has variable
+[i] c cleared
+clearing ir...?
+filled_16(mapping(bytes32 => uint256)) := ϕ(['filled_3', 'filled_6', 'filled_18', 'filled_15', 'filled_9', 'filled_0', 'filled_21', 'filled_24', 'filled_12'])
+has variable
+clearing ir...?
+Balance_1(mapping(address => uint256)) := ϕ(['Balance_5', 'Balance_0'])
+has variable
+clearing ir...?
+marketPlace_22(address) := ϕ(['marketPlace_0', 'marketPlace_13', 'marketPlace_5', 'marketPlace_9', 'marketPlace_21', 'marketPlace_24', 'marketPlace_1', 'marketPlace_28', 'marketPlace_26', 'marketPlace_30', 'marketPlace_16'])
+has variable
+clearing ir...?
+fenominator_12(uint16[]) := ϕ(['fenominator_11', 'fenominator_7', 'fenominator_1', 'fenominator_15', 'fenominator_13', 'fenominator_17', 'fenominator_9', 'fenominator_3', 'fenominator_18', 'fenominator_5', 'fenominator_0'])
+has variable
+typecheckig node...
+o_1 (-> [])(Hash.Order) := ϕ(['REF_132'])
+Function name: exitVaultFillingVaultInitiate
+Phi
+[i]Type for o
+
+Name: o Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+a_1(uint256) := ϕ(['REF_133'])
+Function name: exitVaultFillingVaultInitiate
+Phi
+[i]Type for a
+
+Name: a Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+done.
+c_1 (-> [])(Sig.Components) := ϕ(['REF_134'])
+Function name: exitVaultFillingVaultInitiate
+Phi
+[i]Type for c
+
+Name: c Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+filled_16(mapping(bytes32 => uint256)) := ϕ(['filled_3', 'filled_6', 'filled_18', 'filled_15', 'filled_9', 'filled_0', 'filled_21', 'filled_24', 'filled_12'])
+Function name: exitVaultFillingVaultInitiate
+Phi
+[i]Type for filled
+
+Name: filled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+Balance_1(mapping(address => uint256)) := ϕ(['Balance_5', 'Balance_0'])
+Function name: exitVaultFillingVaultInitiate
+Phi
+[i]Type for Balance
+
+Name: Balance Function: global
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: net balance
+done.
+marketPlace_22(address) := ϕ(['marketPlace_0', 'marketPlace_13', 'marketPlace_5', 'marketPlace_9', 'marketPlace_21', 'marketPlace_24', 'marketPlace_1', 'marketPlace_28', 'marketPlace_26', 'marketPlace_30', 'marketPlace_16'])
+Function name: exitVaultFillingVaultInitiate
+Phi
+[i]Type for marketPlace
+
+Name: marketPlace Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+fenominator_12(uint16[]) := ϕ(['fenominator_11', 'fenominator_7', 'fenominator_1', 'fenominator_15', 'fenominator_13', 'fenominator_17', 'fenominator_9', 'fenominator_3', 'fenominator_18', 'fenominator_5', 'fenominator_0'])
+Function name: exitVaultFillingVaultInitiate
+Phi
+[i]Type for fenominator
+
+Name: fenominator Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: compound fee ratio (t)
+done.
+clearning node...
+clearing ir...?
+TMP_176(bytes32) = INTERNAL_CALL, Swivel.validOrderHash(Hash.Order,Sig.Components)(o_1 (-> []),c_1 (-> []))
+has variable
+[i] TMP_176 cleared
+clearing ir...?
+hash_1(bytes32) := TMP_176(bytes32)
+has variable
+[i] hash cleared
+typecheckig node...
+TMP_176(bytes32) = INTERNAL_CALL, Swivel.validOrderHash(Hash.Order,Sig.Components)(o_1 (-> []),c_1 (-> []))
+Function name: exitVaultFillingVaultInitiate
+Internal call...
+validOrderHash
+o
+c
+Function: validOrderHash
+ic
+Internal cal param_cache
+Param: 0
+    num: [-1]
+    den: [-1]
+    norm: u
+    link: None
+    fields: []
+    fintype: -1
+Param: 1
+    num: [-1]
+    den: [-1]
+    norm: u
+    link: None
+    fields: []
+    fintype: -1
+-100
+added
+xyz
+Function name: validOrderHash
+Function Visibility: internal
+clearning node...
+clearing ir...?
+o_1 (-> [])(Hash.Order) := ϕ(['o_1 (-> [])', 'o_1 (-> [])', 'o_1 (-> [])', 'o_1 (-> [])', 'o_1 (-> [])', 'o_1 (-> [])', 'o_1 (-> [])', 'o_1 (-> [])', 'o_1 (-> [])'])
+has variable
+[i] o cleared
+clearing ir...?
+c_1 (-> [])(Sig.Components) := ϕ(['c_1 (-> [])', 'c_1 (-> [])', 'c_1 (-> [])', 'c_1 (-> [])', 'c_1 (-> [])', 'c_1 (-> [])', 'c_1 (-> [])', 'c_1 (-> [])', 'c_1 (-> [])'])
+has variable
+[i] c cleared
+clearing ir...?
+cancelled_2(mapping(bytes32 => bool)) := ϕ(['cancelled_0', 'cancelled_2', 'cancelled_1'])
+has variable
+clearing ir...?
+domain_2(bytes32) := ϕ(['domain_0', 'domain_1'])
+has variable
+typecheckig node...
+o_1 (-> [])(Hash.Order) := ϕ(['o_1 (-> [])', 'o_1 (-> [])', 'o_1 (-> [])', 'o_1 (-> [])', 'o_1 (-> [])', 'o_1 (-> [])', 'o_1 (-> [])', 'o_1 (-> [])', 'o_1 (-> [])'])
+Function name: validOrderHash
+Phi
+[i]Type for o
+
+Name: o Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+c_1 (-> [])(Sig.Components) := ϕ(['c_1 (-> [])', 'c_1 (-> [])', 'c_1 (-> [])', 'c_1 (-> [])', 'c_1 (-> [])', 'c_1 (-> [])', 'c_1 (-> [])', 'c_1 (-> [])', 'c_1 (-> [])'])
+Function name: validOrderHash
+Phi
+[i]Type for c
+
+Name: c Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+cancelled_2(mapping(bytes32 => bool)) := ϕ(['cancelled_0', 'cancelled_2', 'cancelled_1'])
+Function name: validOrderHash
+Phi
+[i]Type for cancelled
+
+Name: cancelled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+domain_2(bytes32) := ϕ(['domain_0', 'domain_1'])
+Function name: validOrderHash
+Phi
+[i]Type for domain
+
+Name: domain Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+clearning node...
+clearing ir...?
+TMP_300(bytes32) = LIBRARY_CALL, dest:Hash, function:Hash.order(Hash.Order), arguments:['o_1 (-> [])'] 
+has variable
+[i] TMP_300 cleared
+clearing ir...?
+hash_1(bytes32) := TMP_300(bytes32)
+has variable
+[i] hash cleared
+typecheckig node...
+TMP_300(bytes32) = LIBRARY_CALL, dest:Hash, function:Hash.order(Hash.Order), arguments:['o_1 (-> [])'] 
+Function name: validOrderHash
+Library Call: order
+WIP
+hlc contract name: Hash func_name: order
+wfc len: 0
+COPIED
+[i]Type for TMP_300
+
+Name: TMP_300 Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+hash_1(bytes32) := TMP_300(bytes32)
+Function name: validOrderHash
+asgn
+
+Name: TMP_300 Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: hash Function: validOrderHash
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+u
+Finance type key: (-1, -1)
+Func: assign
+Dest type: -1, Update_ratios: {10: -1, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: -1
+Final dest type: -1
+[i]Type for hash
+
+Name: hash Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+clearning node...
+clearing ir...?
+REF_252(bool) -> cancelled_2[hash_1]
+has variable
+clearing ir...?
+TMP_301 = ! REF_252 
+clearing ir...?
+TMP_302(None) = SOLIDITY_CALL require(bool,string)(TMP_301,order cancelled)
+typecheckig node...
+REF_252(bool) -> cancelled_2[hash_1]
+Function name: validOrderHash
+INDEX
+
+Name: cancelled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+Name: global
+REFERENCE IS BOOL TYPE
+[i]Type for REF_252
+
+Name: cancelled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_301 = ! REF_252 
+[i]Type for TMP_301
+
+Name: None Function: None
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_302(None) = SOLIDITY_CALL require(bool,string)(TMP_301,order cancelled)
+[i]Type for TMP_302
+
+Name: None Function: None
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+clearning node...
+clearing ir...?
+REF_253(uint256) -> o_1 (-> []).expiry
+has variable
+clearing ir...?
+TMP_303(bool) = REF_253 >= block.timestamp
+has variable
+[i] TMP_303 cleared
+clearing ir...?
+TMP_304(None) = SOLIDITY_CALL require(bool,string)(TMP_303,order expired)
+typecheckig node...
+REF_253(uint256) -> o_1 (-> []).expiry
+Function name: validOrderHash
+MEMBER
+o
+expiry
+validOrderHash
+o Fields:
+^^^
+[i]Type for REF_253
+
+Name: o.expiry Function: validOrderHash
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: o.expiry Function: validOrderHash
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: expiry Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_303(bool) = REF_253 >= block.timestamp
+Function name: validOrderHash
+testing gt...
+lnorm: u rnorm: u
+Dest type: -1, Update_ratios: {10: -1, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: -1
+Final dest type: -1
+
+Name: PIC_1 Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: TMP_303 Function: validOrderHash
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for TMP_303
+
+Name: TMP_303 Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+This IR caused addback:
+TMP_303(bool) = REF_253 >= block.timestamp
+XXXXX
+TMP_304(None) = SOLIDITY_CALL require(bool,string)(TMP_303,order expired)
+[i]Type for TMP_304
+
+Name: None Function: None
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+clearning node...
+clearing ir...?
+REF_254(address) -> o_1 (-> []).maker
+has variable
+clearing ir...?
+TMP_305(bytes32) = LIBRARY_CALL, dest:Hash, function:Hash.message(bytes32,bytes32), arguments:['domain_2', 'hash_1'] 
+has variable
+[i] TMP_305 cleared
+clearing ir...?
+TMP_306(address) = LIBRARY_CALL, dest:Sig, function:Sig.recover(bytes32,Sig.Components), arguments:['TMP_305', 'c_1 (-> [])'] 
+has variable
+[i] TMP_306 cleared
+clearing ir...?
+TMP_307(bool) = REF_254 == TMP_306
+has variable
+[i] TMP_307 cleared
+clearing ir...?
+TMP_308(None) = SOLIDITY_CALL require(bool,string)(TMP_307,invalid signature)
+typecheckig node...
+REF_254(address) -> o_1 (-> []).maker
+Function name: validOrderHash
+MEMBER
+o
+maker
+validOrderHash
+o Fields:
+expiry
+^^^
+[i]Type for REF_254
+
+Name: o.maker Function: validOrderHash
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: o.maker Function: validOrderHash
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: maker Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_305(bytes32) = LIBRARY_CALL, dest:Hash, function:Hash.message(bytes32,bytes32), arguments:['domain_2', 'hash_1'] 
+Function name: validOrderHash
+Library Call: message
+WIP
+hlc contract name: Hash func_name: message
+wfc len: 0
+COPIED
+[i]Type for TMP_305
+
+Name: TMP_305 Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_306(address) = LIBRARY_CALL, dest:Sig, function:Sig.recover(bytes32,Sig.Components), arguments:['TMP_305', 'c_1 (-> [])'] 
+Function name: validOrderHash
+Library Call: recover
+WIP
+hlc contract name: Sig func_name: recover
+wfc len: 0
+COPIED
+[i]Type for TMP_306
+
+Name: TMP_306 Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_307(bool) = REF_254 == TMP_306
+Function name: validOrderHash
+[i]Type for TMP_307
+
+Name: TMP_307 Function: validOrderHash
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_308(None) = SOLIDITY_CALL require(bool,string)(TMP_307,invalid signature)
+[i]Type for TMP_308
+
+Name: None Function: None
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+typecheckig node...
+RETURN hash_1
+RETURN
+
+Name: hash Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+WORKLIST iteration 0 for function call "validOrderHash":
+ New undefined nodes- 1
+ Old undefined nodes- 0
+typecheckig node...
+o_1 (-> [])(Hash.Order) := ϕ(['o_1 (-> [])', 'o_1 (-> [])', 'o_1 (-> [])', 'o_1 (-> [])', 'o_1 (-> [])', 'o_1 (-> [])', 'o_1 (-> [])', 'o_1 (-> [])', 'o_1 (-> [])'])
+Function name: validOrderHash
+Phi
+[i]Type for o
+
+Name: o Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: expiry, maker
+Finance Type: undef
+done.
+c_1 (-> [])(Sig.Components) := ϕ(['c_1 (-> [])', 'c_1 (-> [])', 'c_1 (-> [])', 'c_1 (-> [])', 'c_1 (-> [])', 'c_1 (-> [])', 'c_1 (-> [])', 'c_1 (-> [])', 'c_1 (-> [])'])
+Function name: validOrderHash
+Phi
+[i]Type for c
+
+Name: c Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+cancelled_2(mapping(bytes32 => bool)) := ϕ(['cancelled_0', 'cancelled_2', 'cancelled_1'])
+Function name: validOrderHash
+Phi
+[i]Type for cancelled
+
+Name: cancelled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+domain_2(bytes32) := ϕ(['domain_0', 'domain_1'])
+Function name: validOrderHash
+Phi
+[i]Type for domain
+
+Name: domain Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+typecheckig node...
+TMP_300(bytes32) = LIBRARY_CALL, dest:Hash, function:Hash.order(Hash.Order), arguments:['o_1 (-> [])'] 
+Function name: validOrderHash
+Library Call: order
+WIP
+hlc contract name: Hash func_name: order
+wfc len: 0
+COPIED
+[i]Type for TMP_300
+
+Name: TMP_300 Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+hash_1(bytes32) := TMP_300(bytes32)
+Function name: validOrderHash
+asgn
+
+Name: TMP_300 Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: hash Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+u
+Finance type key: (-1, -1)
+Func: assign
+Dest type: -1, Update_ratios: {10: -1, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: -1
+Final dest type: -1
+[i]Type for hash
+
+Name: hash Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+typecheckig node...
+REF_252(bool) -> cancelled_2[hash_1]
+Function name: validOrderHash
+INDEX
+
+Name: cancelled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+Name: global
+REFERENCE IS BOOL TYPE
+[i]Type for REF_252
+
+Name: cancelled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_301 = ! REF_252 
+[i]Type for TMP_301
+
+Name: None Function: None
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_302(None) = SOLIDITY_CALL require(bool,string)(TMP_301,order cancelled)
+[i]Type for TMP_302
+
+Name: None Function: None
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+typecheckig node...
+REF_253(uint256) -> o_1 (-> []).expiry
+Function name: validOrderHash
+MEMBER
+o
+expiry
+validOrderHash
+o Fields:
+expiry
+maker
+^^^
+
+Name: expiry Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for REF_253
+
+Name: o.expiry Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: o.expiry Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: expiry Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_303(bool) = REF_253 >= block.timestamp
+Function name: validOrderHash
+testing gt...
+lnorm: u rnorm: u
+Dest type: -1, Update_ratios: {10: -1, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: -1
+Final dest type: -1
+[i]Type for TMP_303
+
+Name: TMP_303 Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_304(None) = SOLIDITY_CALL require(bool,string)(TMP_303,order expired)
+[i]Type for TMP_304
+
+Name: None Function: None
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+typecheckig node...
+REF_254(address) -> o_1 (-> []).maker
+Function name: validOrderHash
+MEMBER
+o
+maker
+validOrderHash
+o Fields:
+expiry
+maker
+^^^
+
+Name: maker Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for REF_254
+
+Name: o.maker Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: o.maker Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: maker Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_305(bytes32) = LIBRARY_CALL, dest:Hash, function:Hash.message(bytes32,bytes32), arguments:['domain_2', 'hash_1'] 
+Function name: validOrderHash
+Library Call: message
+WIP
+hlc contract name: Hash func_name: message
+wfc len: 0
+COPIED
+[i]Type for TMP_305
+
+Name: TMP_305 Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_306(address) = LIBRARY_CALL, dest:Sig, function:Sig.recover(bytes32,Sig.Components), arguments:['TMP_305', 'c_1 (-> [])'] 
+Function name: validOrderHash
+Library Call: recover
+WIP
+hlc contract name: Sig func_name: recover
+wfc len: 0
+COPIED
+[i]Type for TMP_306
+
+Name: TMP_306 Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_307(bool) = REF_254 == TMP_306
+Function name: validOrderHash
+[i]Type for TMP_307
+
+Name: TMP_307 Function: validOrderHash
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_308(None) = SOLIDITY_CALL require(bool,string)(TMP_307,invalid signature)
+[i]Type for TMP_308
+
+Name: None Function: None
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+typecheckig node...
+RETURN hash_1
+RETURN
+
+Name: hash Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+WORKLIST iteration 1 for function call "validOrderHash":
+ New undefined nodes- 0
+ Old undefined nodes- 1
+typecheckig node...
+o_1 (-> [])(Hash.Order) := ϕ(['o_1 (-> [])', 'o_1 (-> [])', 'o_1 (-> [])', 'o_1 (-> [])', 'o_1 (-> [])', 'o_1 (-> [])', 'o_1 (-> [])', 'o_1 (-> [])', 'o_1 (-> [])'])
+Function name: validOrderHash
+Phi
+[i]Type for o
+
+Name: o Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: expiry, maker
+Finance Type: undef
+done.
+c_1 (-> [])(Sig.Components) := ϕ(['c_1 (-> [])', 'c_1 (-> [])', 'c_1 (-> [])', 'c_1 (-> [])', 'c_1 (-> [])', 'c_1 (-> [])', 'c_1 (-> [])', 'c_1 (-> [])', 'c_1 (-> [])'])
+Function name: validOrderHash
+Phi
+[i]Type for c
+
+Name: c Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+cancelled_2(mapping(bytes32 => bool)) := ϕ(['cancelled_0', 'cancelled_2', 'cancelled_1'])
+Function name: validOrderHash
+Phi
+[i]Type for cancelled
+
+Name: cancelled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+domain_2(bytes32) := ϕ(['domain_0', 'domain_1'])
+Function name: validOrderHash
+Phi
+[i]Type for domain
+
+Name: domain Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+typecheckig node...
+TMP_300(bytes32) = LIBRARY_CALL, dest:Hash, function:Hash.order(Hash.Order), arguments:['o_1 (-> [])'] 
+Function name: validOrderHash
+Library Call: order
+WIP
+hlc contract name: Hash func_name: order
+wfc len: 0
+COPIED
+[i]Type for TMP_300
+
+Name: TMP_300 Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+hash_1(bytes32) := TMP_300(bytes32)
+Function name: validOrderHash
+asgn
+
+Name: TMP_300 Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: hash Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+u
+Finance type key: (-1, -1)
+Func: assign
+Dest type: -1, Update_ratios: {10: -1, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: -1
+Final dest type: -1
+[i]Type for hash
+
+Name: hash Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+typecheckig node...
+REF_252(bool) -> cancelled_2[hash_1]
+Function name: validOrderHash
+INDEX
+
+Name: cancelled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+Name: global
+REFERENCE IS BOOL TYPE
+[i]Type for REF_252
+
+Name: cancelled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_301 = ! REF_252 
+[i]Type for TMP_301
+
+Name: None Function: None
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_302(None) = SOLIDITY_CALL require(bool,string)(TMP_301,order cancelled)
+[i]Type for TMP_302
+
+Name: None Function: None
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+typecheckig node...
+REF_253(uint256) -> o_1 (-> []).expiry
+Function name: validOrderHash
+MEMBER
+o
+expiry
+validOrderHash
+o Fields:
+expiry
+maker
+^^^
+
+Name: expiry Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for REF_253
+
+Name: o.expiry Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: o.expiry Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: expiry Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_303(bool) = REF_253 >= block.timestamp
+Function name: validOrderHash
+testing gt...
+lnorm: u rnorm: u
+Dest type: -1, Update_ratios: {10: -1, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: -1
+Final dest type: -1
+[i]Type for TMP_303
+
+Name: TMP_303 Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_304(None) = SOLIDITY_CALL require(bool,string)(TMP_303,order expired)
+[i]Type for TMP_304
+
+Name: None Function: None
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+typecheckig node...
+REF_254(address) -> o_1 (-> []).maker
+Function name: validOrderHash
+MEMBER
+o
+maker
+validOrderHash
+o Fields:
+expiry
+maker
+^^^
+
+Name: maker Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for REF_254
+
+Name: o.maker Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: o.maker Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: maker Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_305(bytes32) = LIBRARY_CALL, dest:Hash, function:Hash.message(bytes32,bytes32), arguments:['domain_2', 'hash_1'] 
+Function name: validOrderHash
+Library Call: message
+WIP
+hlc contract name: Hash func_name: message
+wfc len: 0
+COPIED
+[i]Type for TMP_305
+
+Name: TMP_305 Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_306(address) = LIBRARY_CALL, dest:Sig, function:Sig.recover(bytes32,Sig.Components), arguments:['TMP_305', 'c_1 (-> [])'] 
+Function name: validOrderHash
+Library Call: recover
+WIP
+hlc contract name: Sig func_name: recover
+wfc len: 0
+COPIED
+[i]Type for TMP_306
+
+Name: TMP_306 Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_307(bool) = REF_254 == TMP_306
+Function name: validOrderHash
+[i]Type for TMP_307
+
+Name: TMP_307 Function: validOrderHash
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_308(None) = SOLIDITY_CALL require(bool,string)(TMP_307,invalid signature)
+[i]Type for TMP_308
+
+Name: None Function: None
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+typecheckig node...
+RETURN hash_1
+RETURN
+
+Name: hash Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+WORKLIST iteration 2 for function call "validOrderHash":
+ New undefined nodes- 0
+ Old undefined nodes- 0
+Saving return values for: validOrderHash
+
+Name: hash Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+___
+[i]Type for TMP_176
+
+Name: TMP_176 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+hash_1(bytes32) := TMP_176(bytes32)
+Function name: exitVaultFillingVaultInitiate
+asgn
+
+Name: TMP_176 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: hash Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+u
+Finance type key: (-1, -1)
+Func: assign
+Dest type: -1, Update_ratios: {10: -1, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: -1
+Final dest type: -1
+[i]Type for hash
+
+Name: hash Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+clearning node...
+clearing ir...?
+REF_162(uint256) -> o_1 (-> []).principal
+has variable
+clearing ir...?
+REF_163(uint256) -> filled_17[hash_1]
+has variable
+clearing ir...?
+TMP_177(uint256) = REF_162 (c)- REF_163
+has variable
+[i] TMP_177 cleared
+clearing ir...?
+TMP_178(bool) = a_1 <= TMP_177
+has variable
+[i] TMP_178 cleared
+clearing ir...?
+TMP_179(None) = SOLIDITY_CALL require(bool,string)(TMP_178,taker amount > available volume)
+typecheckig node...
+REF_162(uint256) -> o_1 (-> []).principal
+Function name: exitVaultFillingVaultInitiate
+MEMBER
+o
+principal
+exitVaultFillingVaultInitiate
+o Fields:
+^^^
+[i]Type for REF_162
+
+Name: o.principal Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: o.principal Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: principal Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+REF_163(uint256) -> filled_17[hash_1]
+Function name: exitVaultFillingVaultInitiate
+INDEX
+
+Name: None Function: None
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+Name: None
+filled
+[i]Type for REF_163
+
+Name: None Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+This IR caused addback:
+REF_163(uint256) -> filled_17[hash_1]
+XXXXX
+TMP_177(uint256) = REF_162 (c)- REF_163
+Function name: exitVaultFillingVaultInitiate
+lnorm: u rnorm: u
+Dest type: -1, Update_ratios: {10: -1, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: -1
+Final dest type: -1
+
+Name: o.principal Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: REF_163 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: REF_163 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: TMP_177 Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for TMP_177
+
+Name: TMP_177 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+This IR caused addback:
+TMP_177(uint256) = REF_162 (c)- REF_163
+XXXXX
+TMP_178(bool) = a_1 <= TMP_177
+Function name: exitVaultFillingVaultInitiate
+testing lt...
+lnorm: 0 rnorm: u
+Dest type: 0, Update_ratios: {10: -1, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: 0
+Final dest type: 0
+[i]Type for TMP_178
+
+Name: TMP_178 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: raw balance
+done.
+TMP_179(None) = SOLIDITY_CALL require(bool,string)(TMP_178,taker amount > available volume)
+[i]Type for TMP_179
+
+Name: None Function: None
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+clearning node...
+clearing ir...?
+REF_164(uint256) -> filled_17[hash_1]
+has variable
+clearing ir...?
+filled_18(mapping(bytes32 => uint256)) := ϕ(['filled_17'])
+has variable
+clearing ir...?
+REF_164(-> filled_18) = REF_164 (c)+ a_1
+has variable
+typecheckig node...
+REF_164(uint256) -> filled_17[hash_1]
+Function name: exitVaultFillingVaultInitiate
+INDEX
+
+Name: None Function: None
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+Name: None
+filled
+[i]Type for REF_164
+
+Name: None Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+This IR caused addback:
+REF_164(uint256) -> filled_17[hash_1]
+XXXXX
+filled_18(mapping(bytes32 => uint256)) := ϕ(['filled_17'])
+Function name: exitVaultFillingVaultInitiate
+Phi
+[i]Type for filled
+
+Name: filled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+REF_164(-> filled_18) = REF_164 (c)+ a_1
+Function name: exitVaultFillingVaultInitiate
+
+Name: REF_164 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+initlize checks
+;;;
+lnorm: u rnorm: 0
+Dest type: 0, Update_ratios: {10: -1, 12: -1, 20: -1, 21: -1}
+Right type: 0, Left type: 0
+Final dest type: 0
+
+Name: a Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+
+Name: REF_164 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+[i]Type for REF_164
+
+Name: REF_164 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+done.
+clearning node...
+clearing ir...?
+TMP_180(uint256) = a_1 (c)* 1000000000000000000
+has variable
+[i] TMP_180 cleared
+clearing ir...?
+REF_165(uint256) -> o_1 (-> []).principal
+has variable
+clearing ir...?
+TMP_181(uint256) = TMP_180 (c)/ REF_165
+has variable
+[i] TMP_181 cleared
+clearing ir...?
+REF_166(uint256) -> o_1 (-> []).premium
+has variable
+clearing ir...?
+TMP_182(uint256) = TMP_181 (c)* REF_166
+has variable
+[i] TMP_182 cleared
+clearing ir...?
+TMP_183(uint256) = TMP_182 (c)/ 1000000000000000000
+has variable
+[i] TMP_183 cleared
+clearing ir...?
+premiumFilled_1(uint256) := TMP_183(uint256)
+has variable
+[i] premiumFilled cleared
+typecheckig node...
+TMP_180(uint256) = a_1 (c)* 1000000000000000000
+Function name: exitVaultFillingVaultInitiate
+testing mul...
+val: 1000000000000000000
+18
+val: 1000000000000000000
+18
+lnorm: 0 rnorm: 18
+Dest type: 0, Update_ratios: {10: -1, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: 0
+Final dest type: 0
+
+Name: a Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+
+Name: TMP_180 Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: 18
+LF: None
+Fields: 
+Finance Type: raw balance
+[i]Type for TMP_180
+
+Name: TMP_180 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 18
+LF: None
+Fields: 
+Finance Type: raw balance
+done.
+REF_165(uint256) -> o_1 (-> []).principal
+Function name: exitVaultFillingVaultInitiate
+MEMBER
+o
+principal
+exitVaultFillingVaultInitiate
+o Fields:
+principal
+^^^
+
+Name: principal Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for REF_165
+
+Name: o.principal Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: o.principal Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: principal Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_181(uint256) = TMP_180 (c)/ REF_165
+Function name: exitVaultFillingVaultInitiate
+lnorm: 18 rnorm: u
+Dest type: 0, Update_ratios: {10: -1, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: 0
+Final dest type: 0
+
+Name: TMP_181 Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: 18
+LF: None
+Fields: 
+Finance Type: raw balance
+
+Name: TMP_180 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 18
+LF: None
+Fields: 
+Finance Type: raw balance
+
+Name: TMP_181 Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: 18
+LF: None
+Fields: 
+Finance Type: raw balance
+[i]Type for TMP_181
+
+Name: TMP_181 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 18
+LF: None
+Fields: 
+Finance Type: raw balance
+done.
+REF_166(uint256) -> o_1 (-> []).premium
+Function name: exitVaultFillingVaultInitiate
+MEMBER
+o
+premium
+exitVaultFillingVaultInitiate
+o Fields:
+principal
+^^^
+[i]Type for REF_166
+
+Name: o.premium Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: o.premium Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: premium Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_182(uint256) = TMP_181 (c)* REF_166
+Function name: exitVaultFillingVaultInitiate
+testing mul...
+lnorm: 18 rnorm: u
+Dest type: 0, Update_ratios: {10: -1, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: 0
+Final dest type: 0
+
+Name: TMP_181 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 18
+LF: None
+Fields: 
+Finance Type: raw balance
+
+Name: TMP_182 Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: 18
+LF: None
+Fields: 
+Finance Type: raw balance
+[i]Type for TMP_182
+
+Name: TMP_182 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 18
+LF: None
+Fields: 
+Finance Type: raw balance
+done.
+This IR caused addback:
+TMP_182(uint256) = TMP_181 (c)* REF_166
+XXXXX
+TMP_183(uint256) = TMP_182 (c)/ 1000000000000000000
+Function name: exitVaultFillingVaultInitiate
+val: 1000000000000000000
+18
+val: 1000000000000000000
+18
+lnorm: 18 rnorm: 18
+Dest type: 0, Update_ratios: {10: -1, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: 0
+Final dest type: 0
+
+Name: TMP_183 Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+
+Name: TMP_182 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 18
+LF: None
+Fields: 
+Finance Type: raw balance
+
+Name: TMP_183 Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+[i]Type for TMP_183
+
+Name: TMP_183 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+done.
+premiumFilled_1(uint256) := TMP_183(uint256)
+Function name: exitVaultFillingVaultInitiate
+asgn
+
+Name: TMP_183 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+
+Name: premiumFilled Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+0
+Finance type key: (0, -1)
+Func: assign
+Dest type: 0, Update_ratios: {10: -1, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: 0
+Final dest type: 0
+[i]Type for premiumFilled
+
+Name: premiumFilled Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+done.
+clearning node...
+clearing ir...?
+TMP_184(uint256) = premiumFilled_1 (c)* 1000000000000000000
+has variable
+[i] TMP_184 cleared
+clearing ir...?
+REF_167(uint16) -> fenominator_13[3]
+has variable
+clearing ir...?
+TMP_185(uint256) = TMP_184 (c)/ REF_167
+has variable
+[i] TMP_185 cleared
+clearing ir...?
+TMP_186(uint256) = TMP_185 (c)/ 1000000000000000000
+has variable
+[i] TMP_186 cleared
+clearing ir...?
+fee_1(uint256) := TMP_186(uint256)
+has variable
+[i] fee cleared
+typecheckig node...
+TMP_184(uint256) = premiumFilled_1 (c)* 1000000000000000000
+Function name: exitVaultFillingVaultInitiate
+testing mul...
+val: 1000000000000000000
+18
+val: 1000000000000000000
+18
+lnorm: 0 rnorm: 18
+Dest type: 0, Update_ratios: {10: -1, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: 0
+Final dest type: 0
+
+Name: premiumFilled Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+
+Name: TMP_184 Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: 18
+LF: None
+Fields: 
+Finance Type: raw balance
+[i]Type for TMP_184
+
+Name: TMP_184 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 18
+LF: None
+Fields: 
+Finance Type: raw balance
+done.
+REF_167(uint16) -> fenominator_13[3]
+Function name: exitVaultFillingVaultInitiate
+INDEX
+
+Name: None Function: None
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+Name: None
+fenominator
+REFERENCE TYPE READ
+Check copy_toekn_tuple
+([-1], [-1], ['u'], None, 10)
+----
+Type: uint16
+uint16
+Final Type: uint16
+[i]Type for REF_167
+
+Name: None Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: compound fee ratio (t)
+done.
+TMP_185(uint256) = TMP_184 (c)/ REF_167
+Function name: exitVaultFillingVaultInitiate
+lnorm: 18 rnorm: u
+Finance type key: (0, 10)
+Func: div
+Dest type: 14, Update_ratios: {10: -1, 12: -1, 20: -1, 21: -1}
+Right type: 10, Left type: 0
+Left side: 0, Right side: 10, Checked Ratio: 10
+False
+Final dest type: 14
+
+Name: TMP_185 Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: 18
+LF: None
+Fields: 
+Finance Type: transaction fee (d)
+
+Name: TMP_184 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 18
+LF: None
+Fields: 
+Finance Type: raw balance
+
+Name: TMP_185 Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: 18
+LF: None
+Fields: 
+Finance Type: transaction fee (d)
+[i]Type for TMP_185
+
+Name: TMP_185 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 18
+LF: None
+Fields: 
+Finance Type: transaction fee (d)
+done.
+TMP_186(uint256) = TMP_185 (c)/ 1000000000000000000
+Function name: exitVaultFillingVaultInitiate
+val: 1000000000000000000
+18
+val: 1000000000000000000
+18
+lnorm: 18 rnorm: 18
+Dest type: 14, Update_ratios: {10: False, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: 14
+Final dest type: 14
+
+Name: TMP_186 Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: 0
+LF: None
+Fields: 
+Finance Type: transaction fee (d)
+
+Name: TMP_185 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 18
+LF: None
+Fields: 
+Finance Type: transaction fee (d)
+
+Name: TMP_186 Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: 0
+LF: None
+Fields: 
+Finance Type: transaction fee (d)
+[i]Type for TMP_186
+
+Name: TMP_186 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: transaction fee (d)
+done.
+fee_1(uint256) := TMP_186(uint256)
+Function name: exitVaultFillingVaultInitiate
+asgn
+
+Name: TMP_186 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: transaction fee (d)
+
+Name: fee Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+0
+Finance type key: (14, -1)
+Func: assign
+Dest type: 14, Update_ratios: {10: False, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: 14
+Final dest type: 14
+[i]Type for fee
+
+Name: fee Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: transaction fee (d)
+done.
+clearning node...
+clearing ir...?
+REF_168(address) -> o_1 (-> []).underlying
+has variable
+clearing ir...?
+TMP_187 = CONVERT REF_168 to Erc20
+has variable
+[i] TMP_187 cleared
+clearing ir...?
+uToken_1(Erc20) := TMP_187(Erc20)
+has variable
+[i] uToken cleared
+typecheckig node...
+REF_168(address) -> o_1 (-> []).underlying
+Function name: exitVaultFillingVaultInitiate
+MEMBER
+o
+underlying
+exitVaultFillingVaultInitiate
+o Fields:
+principal
+premium
+^^^
+[i]Type for REF_168
+
+Name: o.underlying Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: o.underlying Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: underlying Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_187 = CONVERT REF_168 to Erc20
+Function name: exitVaultFillingVaultInitiate
+
+Name: o.underlying Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: TMP_187 Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for TMP_187
+
+Name: TMP_187 Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+This IR caused addback:
+TMP_187 = CONVERT REF_168 to Erc20
+XXXXX
+uToken_1(Erc20) := TMP_187(Erc20)
+Function name: exitVaultFillingVaultInitiate
+asgn
+
+Name: TMP_187 Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: uToken Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+u
+Finance type key: (-1, -1)
+Func: assign
+Dest type: -1, Update_ratios: {10: False, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: -1
+Final dest type: -1
+[i]Type for uToken
+
+Name: uToken Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+This IR caused addback:
+uToken_1(Erc20) := TMP_187(Erc20)
+XXXXX
+clearning node...
+clearing ir...?
+REF_169(uint256) -> Balance_2[msg.sender]
+has variable
+clearing ir...?
+Balance_3(mapping(address => uint256)) := ϕ(['Balance_2'])
+has variable
+clearing ir...?
+REF_169(-> Balance_3) = REF_169 (c)+ premiumFilled_1
+has variable
+typecheckig node...
+REF_169(uint256) -> Balance_2[msg.sender]
+Function name: exitVaultFillingVaultInitiate
+INDEX
+
+Name: None Function: None
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+Name: None
+not variable
+Balance
+[i]Type for REF_169
+
+Name: None Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+This IR caused addback:
+REF_169(uint256) -> Balance_2[msg.sender]
+XXXXX
+Balance_3(mapping(address => uint256)) := ϕ(['Balance_2'])
+Function name: exitVaultFillingVaultInitiate
+Phi
+[i]Type for Balance
+
+Name: Balance Function: global
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: net balance
+done.
+REF_169(-> Balance_3) = REF_169 (c)+ premiumFilled_1
+Function name: exitVaultFillingVaultInitiate
+
+Name: REF_169 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+initlize checks
+;;;
+lnorm: u rnorm: 0
+Dest type: 0, Update_ratios: {10: False, 12: -1, 20: -1, 21: -1}
+Right type: 0, Left type: 0
+Final dest type: 0
+
+Name: premiumFilled Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+
+Name: REF_169 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+[i]Type for REF_169
+
+Name: REF_169 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+done.
+clearning node...
+clearing ir...?
+REF_170(uint256) -> Balance_3[msg.sender]
+has variable
+clearing ir...?
+Balance_4(mapping(address => uint256)) := ϕ(['Balance_3'])
+has variable
+clearing ir...?
+REF_170(-> Balance_4) = REF_170 (c)- fee_1
+has variable
+typecheckig node...
+REF_170(uint256) -> Balance_3[msg.sender]
+Function name: exitVaultFillingVaultInitiate
+INDEX
+
+Name: Balance Function: global
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: net balance
+Name: global
+REFERENCE LEFT VALUE PROPAGATION
+[i]Type for REF_170
+
+Name: Balance Function: global
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: net balance
+done.
+Balance_4(mapping(address => uint256)) := ϕ(['Balance_3'])
+Function name: exitVaultFillingVaultInitiate
+Phi
+[i]Type for Balance
+
+Name: Balance Function: global
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: net balance
+done.
+REF_170(-> Balance_4) = REF_170 (c)- fee_1
+Function name: exitVaultFillingVaultInitiate
+lnorm: 0 rnorm: 0
+Finance type key: (1, 14)
+Error with REF_170 in function exitVaultFillingVaultInitiate
+Error with: REF_170 in function exitVaultFillingVaultInitiate
+[W] Initializing defined variable to constant
+[<slither.slithir.variables.reference_ssa.ReferenceVariableSSA object at 0x7fb2d73e1d60>]
+
+Name: REF_170 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: fee Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: transaction fee (d)
+
+Name: fee Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: transaction fee (d)
+
+Name: REF_170 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for REF_170
+
+Name: REF_170 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+clearning node...
+clearing ir...?
+REF_171(uint256) -> Balance_4[msg.sender]
+has variable
+clearing ir...?
+Balance_5(mapping(address => uint256)) := ϕ(['Balance_4'])
+has variable
+clearing ir...?
+REF_171(-> Balance_5) = REF_171 (c)- fee_1
+has variable
+typecheckig node...
+REF_171(uint256) -> Balance_4[msg.sender]
+Function name: exitVaultFillingVaultInitiate
+INDEX
+
+Name: Balance Function: global
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: net balance
+Name: global
+REFERENCE LEFT VALUE PROPAGATION
+[i]Type for REF_171
+
+Name: Balance Function: global
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: net balance
+done.
+Balance_5(mapping(address => uint256)) := ϕ(['Balance_4'])
+Function name: exitVaultFillingVaultInitiate
+Phi
+[i]Type for Balance
+
+Name: Balance Function: global
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: net balance
+done.
+REF_171(-> Balance_5) = REF_171 (c)- fee_1
+Function name: exitVaultFillingVaultInitiate
+lnorm: 0 rnorm: 0
+Finance type key: (1, 14)
+Error with REF_171 in function exitVaultFillingVaultInitiate
+Error with: REF_171 in function exitVaultFillingVaultInitiate
+[W] Initializing defined variable to constant
+[<slither.slithir.variables.reference_ssa.ReferenceVariableSSA object at 0x7fb2d73e1d60>, <slither.slithir.variables.reference_ssa.ReferenceVariableSSA object at 0x7fb2d736b040>]
+
+Name: REF_171 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: fee Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: transaction fee (d)
+
+Name: fee Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: transaction fee (d)
+
+Name: REF_171 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for REF_171
+
+Name: REF_171 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+clearning node...
+clearing ir...?
+TMP_188 = CONVERT marketPlace_23 to MarketPlace
+has variable
+[i] TMP_188 cleared
+clearing ir...?
+REF_173(address) -> o_1 (-> []).underlying
+has variable
+clearing ir...?
+REF_174(uint256) -> o_1 (-> []).maturity
+has variable
+clearing ir...?
+REF_175(address) -> o_1 (-> []).maker
+has variable
+clearing ir...?
+TMP_189(bool) = HIGH_LEVEL_CALL, dest:TMP_188(MarketPlace), function:p2pVaultExchange, arguments:['REF_173', 'REF_174', 'msg.sender', 'REF_175', 'a_1']  
+has variable
+[i] TMP_189 cleared
+clearing ir...?
+marketPlace_24(address) := ϕ(['marketPlace_13', 'marketPlace_5', 'marketPlace_9', 'marketPlace_21', 'marketPlace_24', 'marketPlace_23', 'marketPlace_1', 'marketPlace_28', 'marketPlace_26', 'marketPlace_30', 'marketPlace_16'])
+has variable
+clearing ir...?
+TMP_190(None) = SOLIDITY_CALL require(bool,string)(TMP_189,vault exchange failed)
+typecheckig node...
+TMP_188 = CONVERT marketPlace_23 to MarketPlace
+Function name: exitVaultFillingVaultInitiate
+
+Name: marketPlace Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: TMP_188 Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for TMP_188
+
+Name: TMP_188 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+REF_173(address) -> o_1 (-> []).underlying
+Function name: exitVaultFillingVaultInitiate
+MEMBER
+o
+underlying
+exitVaultFillingVaultInitiate
+o Fields:
+principal
+premium
+underlying
+^^^
+
+Name: underlying Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for REF_173
+
+Name: o.underlying Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: o.underlying Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: underlying Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+REF_174(uint256) -> o_1 (-> []).maturity
+Function name: exitVaultFillingVaultInitiate
+MEMBER
+o
+maturity
+exitVaultFillingVaultInitiate
+o Fields:
+principal
+premium
+underlying
+^^^
+[i]Type for REF_174
+
+Name: o.maturity Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: o.maturity Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: maturity Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+REF_175(address) -> o_1 (-> []).maker
+Function name: exitVaultFillingVaultInitiate
+MEMBER
+o
+maker
+exitVaultFillingVaultInitiate
+o Fields:
+principal
+premium
+underlying
+maturity
+^^^
+[i]Type for REF_175
+
+Name: o.maker Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: o.maker Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: maker Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_189(bool) = HIGH_LEVEL_CALL, dest:TMP_188(MarketPlace), function:p2pVaultExchange, arguments:['REF_173', 'REF_174', 'msg.sender', 'REF_175', 'a_1']  
+Function name: exitVaultFillingVaultInitiate
+High Call: p2pVaultExchange
+func name:p2pVaultExchange
+other func name:p2pVaultExchange
+TMP_189
+WIP
+[i]Type for TMP_189
+
+Name: TMP_189 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+marketPlace_24(address) := ϕ(['marketPlace_13', 'marketPlace_5', 'marketPlace_9', 'marketPlace_21', 'marketPlace_24', 'marketPlace_23', 'marketPlace_1', 'marketPlace_28', 'marketPlace_26', 'marketPlace_30', 'marketPlace_16'])
+Function name: exitVaultFillingVaultInitiate
+Phi
+[i]Type for marketPlace
+
+Name: marketPlace Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_190(None) = SOLIDITY_CALL require(bool,string)(TMP_189,vault exchange failed)
+[i]Type for TMP_190
+
+Name: None Function: None
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+clearning node...
+clearing ir...?
+REF_176(bytes32) -> o_1 (-> []).key
+has variable
+clearing ir...?
+REF_177(address) -> o_1 (-> []).maker
+has variable
+clearing ir...?
+REF_178(bool) -> o_1 (-> []).vault
+has variable
+clearing ir...?
+REF_179(bool) -> o_1 (-> []).exit
+has variable
+clearing ir...?
+Emit Exit(REF_176,hash_1,REF_177,REF_178,REF_179,msg.sender,a_1,premiumFilled_1)
+typecheckig node...
+REF_176(bytes32) -> o_1 (-> []).key
+Function name: exitVaultFillingVaultInitiate
+MEMBER
+o
+key
+exitVaultFillingVaultInitiate
+o Fields:
+principal
+premium
+underlying
+maturity
+maker
+^^^
+[i]Type for REF_176
+
+Name: o.key Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: o.key Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: key Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+REF_177(address) -> o_1 (-> []).maker
+Function name: exitVaultFillingVaultInitiate
+MEMBER
+o
+maker
+exitVaultFillingVaultInitiate
+o Fields:
+principal
+premium
+underlying
+maturity
+maker
+key
+^^^
+
+Name: maker Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for REF_177
+
+Name: o.maker Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: o.maker Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: maker Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+REF_178(bool) -> o_1 (-> []).vault
+Function name: exitVaultFillingVaultInitiate
+MEMBER
+o
+vault
+exitVaultFillingVaultInitiate
+o Fields:
+principal
+premium
+underlying
+maturity
+maker
+key
+^^^
+[i]Type for REF_178
+
+Name: o.vault Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: o.vault Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: vault Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+REF_179(bool) -> o_1 (-> []).exit
+Function name: exitVaultFillingVaultInitiate
+MEMBER
+o
+exit
+exitVaultFillingVaultInitiate
+o Fields:
+principal
+premium
+underlying
+maturity
+maker
+key
+vault
+^^^
+[i]Type for REF_179
+
+Name: o.exit Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: o.exit Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: exit Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+Emit Exit(REF_176,hash_1,REF_177,REF_178,REF_179,msg.sender,a_1,premiumFilled_1)
+WORKLIST iteration 0 for function call "exitVaultFillingVaultInitiate":
+ New undefined nodes- 5
+ Old undefined nodes- 0
+typecheckig node...
+o_1 (-> [])(Hash.Order) := ϕ(['REF_132'])
+Function name: exitVaultFillingVaultInitiate
+Phi
+[i]Type for o
+
+Name: o Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: principal, premium, underlying, maturity, maker, key, vault, exit
+Finance Type: undef
+done.
+a_1(uint256) := ϕ(['REF_133'])
+Function name: exitVaultFillingVaultInitiate
+Phi
+[i]Type for a
+
+Name: a Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+done.
+c_1 (-> [])(Sig.Components) := ϕ(['REF_134'])
+Function name: exitVaultFillingVaultInitiate
+Phi
+[i]Type for c
+
+Name: c Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+filled_16(mapping(bytes32 => uint256)) := ϕ(['filled_3', 'filled_6', 'filled_18', 'filled_15', 'filled_9', 'filled_0', 'filled_21', 'filled_24', 'filled_12'])
+Function name: exitVaultFillingVaultInitiate
+Phi
+[i]Type for filled
+
+Name: filled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+Balance_1(mapping(address => uint256)) := ϕ(['Balance_5', 'Balance_0'])
+Function name: exitVaultFillingVaultInitiate
+Phi
+[i]Type for Balance
+
+Name: Balance Function: global
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: net balance
+done.
+marketPlace_22(address) := ϕ(['marketPlace_0', 'marketPlace_13', 'marketPlace_5', 'marketPlace_9', 'marketPlace_21', 'marketPlace_24', 'marketPlace_1', 'marketPlace_28', 'marketPlace_26', 'marketPlace_30', 'marketPlace_16'])
+Function name: exitVaultFillingVaultInitiate
+Phi
+[i]Type for marketPlace
+
+Name: marketPlace Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+fenominator_12(uint16[]) := ϕ(['fenominator_11', 'fenominator_7', 'fenominator_1', 'fenominator_15', 'fenominator_13', 'fenominator_17', 'fenominator_9', 'fenominator_3', 'fenominator_18', 'fenominator_5', 'fenominator_0'])
+Function name: exitVaultFillingVaultInitiate
+Phi
+[i]Type for fenominator
+
+Name: fenominator Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: compound fee ratio (t)
+done.
+typecheckig node...
+TMP_176(bytes32) = INTERNAL_CALL, Swivel.validOrderHash(Hash.Order,Sig.Components)(o_1 (-> []),c_1 (-> []))
+Function name: exitVaultFillingVaultInitiate
+Internal call...
+validOrderHash
+o
+c
+Function: validOrderHash
+ic
+Internal cal param_cache
+Param: 0
+    num: [-1]
+    den: [-1]
+    norm: u
+    link: None
+    fields: [principal, premium, underlying, maturity, maker, key, vault, exit]
+    fintype: -1
+Param: 1
+    num: [-1]
+    den: [-1]
+    norm: u
+    link: None
+    fields: []
+    fintype: -1
+0
+0
+
+Name: hash Function: validOrderHash
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: TMP_176 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for TMP_176
+
+Name: TMP_176 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+hash_1(bytes32) := TMP_176(bytes32)
+Function name: exitVaultFillingVaultInitiate
+asgn
+
+Name: TMP_176 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: hash Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+u
+Finance type key: (-1, -1)
+Func: assign
+Dest type: -1, Update_ratios: {10: False, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: -1
+Final dest type: -1
+[i]Type for hash
+
+Name: hash Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+typecheckig node...
+REF_162(uint256) -> o_1 (-> []).principal
+Function name: exitVaultFillingVaultInitiate
+MEMBER
+o
+principal
+exitVaultFillingVaultInitiate
+o Fields:
+principal
+premium
+underlying
+maturity
+maker
+key
+vault
+exit
+^^^
+
+Name: principal Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for REF_162
+
+Name: o.principal Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: o.principal Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: principal Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+REF_163(uint256) -> filled_17[hash_1]
+Function name: exitVaultFillingVaultInitiate
+INDEX
+
+Name: None Function: None
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+Name: None
+filled
+[i]Type for REF_163
+
+Name: None Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+This IR caused addback:
+REF_163(uint256) -> filled_17[hash_1]
+XXXXX
+TMP_177(uint256) = REF_162 (c)- REF_163
+Function name: exitVaultFillingVaultInitiate
+lnorm: u rnorm: u
+Dest type: -1, Update_ratios: {10: False, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: -1
+Final dest type: -1
+
+Name: o.principal Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: REF_163 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: REF_163 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: TMP_177 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for TMP_177
+
+Name: TMP_177 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_178(bool) = a_1 <= TMP_177
+Function name: exitVaultFillingVaultInitiate
+testing lt...
+lnorm: 0 rnorm: u
+Dest type: 0, Update_ratios: {10: False, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: 0
+Final dest type: 0
+[i]Type for TMP_178
+
+Name: TMP_178 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+done.
+TMP_179(None) = SOLIDITY_CALL require(bool,string)(TMP_178,taker amount > available volume)
+[i]Type for TMP_179
+
+Name: None Function: None
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+typecheckig node...
+REF_164(uint256) -> filled_17[hash_1]
+Function name: exitVaultFillingVaultInitiate
+INDEX
+
+Name: None Function: None
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+Name: None
+filled
+[W] Initializing defined variable to constant
+[i]Type for REF_164
+
+Name: None Function: None
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: raw balance
+done.
+This IR caused addback:
+REF_164(uint256) -> filled_17[hash_1]
+XXXXX
+filled_18(mapping(bytes32 => uint256)) := ϕ(['filled_17'])
+Function name: exitVaultFillingVaultInitiate
+Phi
+[i]Type for filled
+
+Name: filled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+REF_164(-> filled_18) = REF_164 (c)+ a_1
+Function name: exitVaultFillingVaultInitiate
+
+Name: REF_164 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+initlize checks
+;;;
+lnorm: 0 rnorm: 0
+Finance type key: (0, 0)
+Func: add
+Dest type: 0, Update_ratios: {10: False, 12: -1, 20: -1, 21: -1}
+Right type: 0, Left type: 0
+Final dest type: 0
+
+Name: REF_164 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+
+Name: REF_164 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+[i]Type for REF_164
+
+Name: REF_164 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+done.
+typecheckig node...
+TMP_180(uint256) = a_1 (c)* 1000000000000000000
+Function name: exitVaultFillingVaultInitiate
+testing mul...
+val: 1000000000000000000
+18
+val: 1000000000000000000
+18
+lnorm: 0 rnorm: 18
+Dest type: 0, Update_ratios: {10: False, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: 0
+Final dest type: 0
+
+Name: a Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+
+Name: TMP_180 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 18
+LF: None
+Fields: 
+Finance Type: raw balance
+[i]Type for TMP_180
+
+Name: TMP_180 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 18
+LF: None
+Fields: 
+Finance Type: raw balance
+done.
+REF_165(uint256) -> o_1 (-> []).principal
+Function name: exitVaultFillingVaultInitiate
+MEMBER
+o
+principal
+exitVaultFillingVaultInitiate
+o Fields:
+principal
+premium
+underlying
+maturity
+maker
+key
+vault
+exit
+^^^
+
+Name: principal Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for REF_165
+
+Name: o.principal Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: o.principal Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: principal Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_181(uint256) = TMP_180 (c)/ REF_165
+Function name: exitVaultFillingVaultInitiate
+lnorm: 18 rnorm: u
+Dest type: 0, Update_ratios: {10: False, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: 0
+Final dest type: 0
+
+Name: TMP_181 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 18
+LF: None
+Fields: 
+Finance Type: raw balance
+
+Name: TMP_180 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 18
+LF: None
+Fields: 
+Finance Type: raw balance
+
+Name: TMP_181 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 18
+LF: None
+Fields: 
+Finance Type: raw balance
+[i]Type for TMP_181
+
+Name: TMP_181 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 18
+LF: None
+Fields: 
+Finance Type: raw balance
+done.
+REF_166(uint256) -> o_1 (-> []).premium
+Function name: exitVaultFillingVaultInitiate
+MEMBER
+o
+premium
+exitVaultFillingVaultInitiate
+o Fields:
+principal
+premium
+underlying
+maturity
+maker
+key
+vault
+exit
+^^^
+
+Name: premium Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for REF_166
+
+Name: o.premium Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: o.premium Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: premium Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_182(uint256) = TMP_181 (c)* REF_166
+Function name: exitVaultFillingVaultInitiate
+testing mul...
+lnorm: 18 rnorm: u
+Dest type: 0, Update_ratios: {10: False, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: 0
+Final dest type: 0
+
+Name: TMP_181 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 18
+LF: None
+Fields: 
+Finance Type: raw balance
+
+Name: TMP_182 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 18
+LF: None
+Fields: 
+Finance Type: raw balance
+[i]Type for TMP_182
+
+Name: TMP_182 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 18
+LF: None
+Fields: 
+Finance Type: raw balance
+done.
+TMP_183(uint256) = TMP_182 (c)/ 1000000000000000000
+Function name: exitVaultFillingVaultInitiate
+val: 1000000000000000000
+18
+val: 1000000000000000000
+18
+lnorm: 18 rnorm: 18
+Dest type: 0, Update_ratios: {10: False, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: 0
+Final dest type: 0
+
+Name: TMP_183 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+
+Name: TMP_182 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 18
+LF: None
+Fields: 
+Finance Type: raw balance
+
+Name: TMP_183 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+[i]Type for TMP_183
+
+Name: TMP_183 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+done.
+premiumFilled_1(uint256) := TMP_183(uint256)
+Function name: exitVaultFillingVaultInitiate
+asgn
+
+Name: TMP_183 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+
+Name: premiumFilled Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+0
+Finance type key: (0, -1)
+Func: assign
+Dest type: 0, Update_ratios: {10: False, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: 0
+Final dest type: 0
+[i]Type for premiumFilled
+
+Name: premiumFilled Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+done.
+typecheckig node...
+TMP_184(uint256) = premiumFilled_1 (c)* 1000000000000000000
+Function name: exitVaultFillingVaultInitiate
+testing mul...
+val: 1000000000000000000
+18
+val: 1000000000000000000
+18
+lnorm: 0 rnorm: 18
+Dest type: 0, Update_ratios: {10: False, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: 0
+Final dest type: 0
+
+Name: premiumFilled Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+
+Name: TMP_184 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 18
+LF: None
+Fields: 
+Finance Type: raw balance
+[i]Type for TMP_184
+
+Name: TMP_184 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 18
+LF: None
+Fields: 
+Finance Type: raw balance
+done.
+REF_167(uint16) -> fenominator_13[3]
+Function name: exitVaultFillingVaultInitiate
+INDEX
+
+Name: None Function: None
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+Name: None
+fenominator
+REFERENCE TYPE READ
+Check copy_toekn_tuple
+([-1], [-1], ['u'], None, 10)
+----
+Type: uint16
+uint16
+Final Type: uint16
+[i]Type for REF_167
+
+Name: None Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: compound fee ratio (t)
+done.
+TMP_185(uint256) = TMP_184 (c)/ REF_167
+Function name: exitVaultFillingVaultInitiate
+lnorm: 18 rnorm: u
+Finance type key: (0, 10)
+Func: div
+Dest type: 14, Update_ratios: {10: False, 12: -1, 20: -1, 21: -1}
+Right type: 10, Left type: 0
+Left side: 0, Right side: 10, Checked Ratio: 10
+False
+Final dest type: 14
+
+Name: TMP_185 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 18
+LF: None
+Fields: 
+Finance Type: transaction fee (d)
+
+Name: TMP_184 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 18
+LF: None
+Fields: 
+Finance Type: raw balance
+
+Name: TMP_185 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 18
+LF: None
+Fields: 
+Finance Type: transaction fee (d)
+[i]Type for TMP_185
+
+Name: TMP_185 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 18
+LF: None
+Fields: 
+Finance Type: transaction fee (d)
+done.
+TMP_186(uint256) = TMP_185 (c)/ 1000000000000000000
+Function name: exitVaultFillingVaultInitiate
+val: 1000000000000000000
+18
+val: 1000000000000000000
+18
+lnorm: 18 rnorm: 18
+Dest type: 14, Update_ratios: {10: False, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: 14
+Final dest type: 14
+
+Name: TMP_186 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: transaction fee (d)
+
+Name: TMP_185 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 18
+LF: None
+Fields: 
+Finance Type: transaction fee (d)
+
+Name: TMP_186 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: transaction fee (d)
+[i]Type for TMP_186
+
+Name: TMP_186 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: transaction fee (d)
+done.
+fee_1(uint256) := TMP_186(uint256)
+Function name: exitVaultFillingVaultInitiate
+asgn
+
+Name: TMP_186 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: transaction fee (d)
+
+Name: fee Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: transaction fee (d)
+0
+Finance type key: (14, -1)
+Func: assign
+Dest type: 14, Update_ratios: {10: False, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: 14
+Final dest type: 14
+[i]Type for fee
+
+Name: fee Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: transaction fee (d)
+done.
+typecheckig node...
+REF_168(address) -> o_1 (-> []).underlying
+Function name: exitVaultFillingVaultInitiate
+MEMBER
+o
+underlying
+exitVaultFillingVaultInitiate
+o Fields:
+principal
+premium
+underlying
+maturity
+maker
+key
+vault
+exit
+^^^
+
+Name: underlying Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for REF_168
+
+Name: o.underlying Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: o.underlying Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: underlying Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_187 = CONVERT REF_168 to Erc20
+Function name: exitVaultFillingVaultInitiate
+
+Name: o.underlying Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: TMP_187 Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for TMP_187
+
+Name: TMP_187 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+uToken_1(Erc20) := TMP_187(Erc20)
+Function name: exitVaultFillingVaultInitiate
+asgn
+
+Name: TMP_187 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: uToken Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+u
+Finance type key: (-1, -1)
+Func: assign
+Dest type: -1, Update_ratios: {10: False, 12: -1, 20: -1, 21: -1}
+Right type: -1, Left type: -1
+Final dest type: -1
+[i]Type for uToken
+
+Name: uToken Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+typecheckig node...
+REF_169(uint256) -> Balance_2[msg.sender]
+Function name: exitVaultFillingVaultInitiate
+INDEX
+
+Name: None Function: None
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+Name: None
+not variable
+Balance
+[W] Initializing defined variable to constant
+[i]Type for REF_169
+
+Name: None Function: None
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: raw balance
+done.
+This IR caused addback:
+REF_169(uint256) -> Balance_2[msg.sender]
+XXXXX
+Balance_3(mapping(address => uint256)) := ϕ(['Balance_2'])
+Function name: exitVaultFillingVaultInitiate
+Phi
+[i]Type for Balance
+
+Name: Balance Function: global
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: net balance
+done.
+REF_169(-> Balance_3) = REF_169 (c)+ premiumFilled_1
+Function name: exitVaultFillingVaultInitiate
+
+Name: REF_169 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+initlize checks
+;;;
+lnorm: 0 rnorm: 0
+Finance type key: (0, 0)
+Func: add
+Dest type: 0, Update_ratios: {10: False, 12: -1, 20: -1, 21: -1}
+Right type: 0, Left type: 0
+Final dest type: 0
+
+Name: REF_169 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+
+Name: REF_169 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+[i]Type for REF_169
+
+Name: REF_169 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: raw balance
+done.
+typecheckig node...
+REF_170(uint256) -> Balance_3[msg.sender]
+Function name: exitVaultFillingVaultInitiate
+INDEX
+
+Name: Balance Function: global
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: net balance
+Name: global
+REFERENCE LEFT VALUE PROPAGATION
+[i]Type for REF_170
+
+Name: Balance Function: global
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: net balance
+done.
+Balance_4(mapping(address => uint256)) := ϕ(['Balance_3'])
+Function name: exitVaultFillingVaultInitiate
+Phi
+[i]Type for Balance
+
+Name: Balance Function: global
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: net balance
+done.
+REF_170(-> Balance_4) = REF_170 (c)- fee_1
+Function name: exitVaultFillingVaultInitiate
+lnorm: 0 rnorm: 0
+Finance type key: (1, 14)
+[W] Initializing defined variable to constant
+
+Name: REF_170 Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: fee Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: transaction fee (d)
+
+Name: fee Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: transaction fee (d)
+
+Name: REF_170 Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for REF_170
+
+Name: REF_170 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+This IR caused addback:
+REF_170(-> Balance_4) = REF_170 (c)- fee_1
+XXXXX
+typecheckig node...
+REF_171(uint256) -> Balance_4[msg.sender]
+Function name: exitVaultFillingVaultInitiate
+INDEX
+
+Name: Balance Function: global
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: net balance
+Name: global
+REFERENCE LEFT VALUE PROPAGATION
+[i]Type for REF_171
+
+Name: Balance Function: global
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: net balance
+done.
+Balance_5(mapping(address => uint256)) := ϕ(['Balance_4'])
+Function name: exitVaultFillingVaultInitiate
+Phi
+[i]Type for Balance
+
+Name: Balance Function: global
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: net balance
+done.
+REF_171(-> Balance_5) = REF_171 (c)- fee_1
+Function name: exitVaultFillingVaultInitiate
+lnorm: 0 rnorm: 0
+Finance type key: (1, 14)
+[W] Initializing defined variable to constant
+
+Name: REF_171 Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: fee Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: transaction fee (d)
+
+Name: fee Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: transaction fee (d)
+
+Name: REF_171 Function: exitVaultFillingVaultInitiate
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for REF_171
+
+Name: REF_171 Function: exitVaultFillingVaultInitiate
+Num: 1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+This IR caused addback:
+REF_171(-> Balance_5) = REF_171 (c)- fee_1
+XXXXX
+typecheckig node...
+TMP_188 = CONVERT marketPlace_23 to MarketPlace
+Function name: exitVaultFillingVaultInitiate
+
+Name: marketPlace Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: TMP_188 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for TMP_188
+
+Name: TMP_188 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+REF_173(address) -> o_1 (-> []).underlying
+Function name: exitVaultFillingVaultInitiate
+MEMBER
+o
+underlying
+exitVaultFillingVaultInitiate
+o Fields:
+principal
+premium
+underlying
+maturity
+maker
+key
+vault
+exit
+^^^
+
+Name: underlying Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for REF_173
+
+Name: o.underlying Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: o.underlying Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: underlying Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+REF_174(uint256) -> o_1 (-> []).maturity
+Function name: exitVaultFillingVaultInitiate
+MEMBER
+o
+maturity
+exitVaultFillingVaultInitiate
+o Fields:
+principal
+premium
+underlying
+maturity
+maker
+key
+vault
+exit
+^^^
+
+Name: maturity Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for REF_174
+
+Name: o.maturity Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: o.maturity Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: maturity Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+REF_175(address) -> o_1 (-> []).maker
+Function name: exitVaultFillingVaultInitiate
+MEMBER
+o
+maker
+exitVaultFillingVaultInitiate
+o Fields:
+principal
+premium
+underlying
+maturity
+maker
+key
+vault
+exit
+^^^
+
+Name: maker Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for REF_175
+
+Name: o.maker Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: o.maker Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: maker Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_189(bool) = HIGH_LEVEL_CALL, dest:TMP_188(MarketPlace), function:p2pVaultExchange, arguments:['REF_173', 'REF_174', 'msg.sender', 'REF_175', 'a_1']  
+Function name: exitVaultFillingVaultInitiate
+High Call: p2pVaultExchange
+func name:p2pVaultExchange
+other func name:p2pVaultExchange
+TMP_189
+WIP
+[i]Type for TMP_189
+
+Name: TMP_189 Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+marketPlace_24(address) := ϕ(['marketPlace_13', 'marketPlace_5', 'marketPlace_9', 'marketPlace_21', 'marketPlace_24', 'marketPlace_23', 'marketPlace_1', 'marketPlace_28', 'marketPlace_26', 'marketPlace_30', 'marketPlace_16'])
+Function name: exitVaultFillingVaultInitiate
+Phi
+[i]Type for marketPlace
+
+Name: marketPlace Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+TMP_190(None) = SOLIDITY_CALL require(bool,string)(TMP_189,vault exchange failed)
+[i]Type for TMP_190
+
+Name: None Function: None
+Num: 
+Den: 
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+typecheckig node...
+REF_176(bytes32) -> o_1 (-> []).key
+Function name: exitVaultFillingVaultInitiate
+MEMBER
+o
+key
+exitVaultFillingVaultInitiate
+o Fields:
+principal
+premium
+underlying
+maturity
+maker
+key
+vault
+exit
+^^^
+
+Name: key Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for REF_176
+
+Name: o.key Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: o.key Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: key Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+REF_177(address) -> o_1 (-> []).maker
+Function name: exitVaultFillingVaultInitiate
+MEMBER
+o
+maker
+exitVaultFillingVaultInitiate
+o Fields:
+principal
+premium
+underlying
+maturity
+maker
+key
+vault
+exit
+^^^
+
+Name: maker Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for REF_177
+
+Name: o.maker Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: o.maker Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: maker Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+REF_178(bool) -> o_1 (-> []).vault
+Function name: exitVaultFillingVaultInitiate
+MEMBER
+o
+vault
+exitVaultFillingVaultInitiate
+o Fields:
+principal
+premium
+underlying
+maturity
+maker
+key
+vault
+exit
+^^^
+
+Name: vault Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for REF_178
+
+Name: o.vault Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: o.vault Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: vault Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+REF_179(bool) -> o_1 (-> []).exit
+Function name: exitVaultFillingVaultInitiate
+MEMBER
+o
+exit
+exitVaultFillingVaultInitiate
+o Fields:
+principal
+premium
+underlying
+maturity
+maker
+key
+vault
+exit
+^^^
+
+Name: exit Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[i]Type for REF_179
+
+Name: o.exit Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: o.exit Function: exitVaultFillingVaultInitiate
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+
+Name: exit Function: None
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+done.
+Emit Exit(REF_176,hash_1,REF_177,REF_178,REF_179,msg.sender,a_1,premiumFilled_1)
+WORKLIST iteration 1 for function call "exitVaultFillingVaultInitiate":
+ New undefined nodes- 5
+ Old undefined nodes- 5
+Saving return values for: exitVaultFillingVaultInitiate
+State_var: fenominator
+Finding type for fenominator...
+uint16[]
+Check copy_toekn_tuple
+([-1], [-1], ['u'], None, 10)
+----
+Type: uint16[]
+uint16[]
+uint16
+Final Type: uint16
+
+Name: fenominator Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: compound fee ratio (t)
+[*]Type fetched successfully
+State_var: filled
+Finding type for filled...
+mapping(bytes32 => uint256)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(bytes32 => uint256)
+mapping(bytes32 => uint256)
+uint256
+Final Type: uint256
+
+Name: filled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: marketPlace
+Finding type for marketPlace...
+address
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: address
+address
+Final Type: address
+
+Name: marketPlace Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: admin
+Finding type for admin...
+address
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: address
+address
+Final Type: address
+
+Name: admin Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: HOLD
+Finding type for HOLD...
+uint256
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: uint256
+uint256
+Final Type: uint256
+
+Name: HOLD Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: NAME
+Finding type for NAME...
+string
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: string
+string
+Final Type: string
+
+Name: NAME Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: VERSION
+Finding type for VERSION...
+string
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: string
+string
+Final Type: string
+
+Name: VERSION Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: cancelled
+Finding type for cancelled...
+mapping(bytes32 => bool)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(bytes32 => bool)
+mapping(bytes32 => bool)
+bool
+Final Type: bool
+
+Name: cancelled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: domain
+Finding type for domain...
+bytes32
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: bytes32
+bytes32
+Final Type: bytes32
+
+Name: domain Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: withdrawals
+Finding type for withdrawals...
+mapping(address => uint256)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(address => uint256)
+mapping(address => uint256)
+uint256
+Final Type: uint256
+
+Name: withdrawals Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: Balance
+Finding type for Balance...
+mapping(address => uint256)
+Check copy_toekn_tuple
+(1, -1, 0, None, 1)
+----
+Type: mapping(address => uint256)
+mapping(address => uint256)
+uint256
+Final Type: uint256
+
+Name: Balance Function: global
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: net balance
+[*]Type fetched successfully
+Reading Function: exitVaultFillingZcTokenExit
+Function exitVaultFillingZcTokenExit not marked
+Reading Function: exitZcTokenFillingVaultExit
+Function exitZcTokenFillingVaultExit not marked
+Reading Function: cancel
+wooo
+State_var: fenominator
+Finding type for fenominator...
+uint16[]
+Check copy_toekn_tuple
+([-1], [-1], ['u'], None, 10)
+----
+Type: uint16[]
+uint16[]
+uint16
+Final Type: uint16
+
+Name: fenominator Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: compound fee ratio (t)
+[*]Type fetched successfully
+State_var: filled
+Finding type for filled...
+mapping(bytes32 => uint256)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(bytes32 => uint256)
+mapping(bytes32 => uint256)
+uint256
+Final Type: uint256
+
+Name: filled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: marketPlace
+Finding type for marketPlace...
+address
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: address
+address
+Final Type: address
+
+Name: marketPlace Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: admin
+Finding type for admin...
+address
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: address
+address
+Final Type: address
+
+Name: admin Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: HOLD
+Finding type for HOLD...
+uint256
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: uint256
+uint256
+Final Type: uint256
+
+Name: HOLD Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: NAME
+Finding type for NAME...
+string
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: string
+string
+Final Type: string
+
+Name: NAME Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: VERSION
+Finding type for VERSION...
+string
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: string
+string
+Final Type: string
+
+Name: VERSION Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: cancelled
+Finding type for cancelled...
+mapping(bytes32 => bool)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(bytes32 => bool)
+mapping(bytes32 => bool)
+bool
+Final Type: bool
+
+Name: cancelled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: domain
+Finding type for domain...
+bytes32
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: bytes32
+bytes32
+Final Type: bytes32
+
+Name: domain Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: withdrawals
+Finding type for withdrawals...
+mapping(address => uint256)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(address => uint256)
+mapping(address => uint256)
+uint256
+Final Type: uint256
+
+Name: withdrawals Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: Balance
+Finding type for Balance...
+mapping(address => uint256)
+Check copy_toekn_tuple
+(1, -1, 0, None, 1)
+----
+Type: mapping(address => uint256)
+mapping(address => uint256)
+uint256
+Final Type: uint256
+
+Name: Balance Function: global
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: net balance
+[*]Type fetched successfully
+Reading Function: scheduleWithdrawal
+wooo
+State_var: fenominator
+Finding type for fenominator...
+uint16[]
+Check copy_toekn_tuple
+([-1], [-1], ['u'], None, 10)
+----
+Type: uint16[]
+uint16[]
+uint16
+Final Type: uint16
+
+Name: fenominator Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: compound fee ratio (t)
+[*]Type fetched successfully
+State_var: filled
+Finding type for filled...
+mapping(bytes32 => uint256)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(bytes32 => uint256)
+mapping(bytes32 => uint256)
+uint256
+Final Type: uint256
+
+Name: filled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: marketPlace
+Finding type for marketPlace...
+address
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: address
+address
+Final Type: address
+
+Name: marketPlace Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: admin
+Finding type for admin...
+address
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: address
+address
+Final Type: address
+
+Name: admin Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: HOLD
+Finding type for HOLD...
+uint256
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: uint256
+uint256
+Final Type: uint256
+
+Name: HOLD Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: NAME
+Finding type for NAME...
+string
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: string
+string
+Final Type: string
+
+Name: NAME Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: VERSION
+Finding type for VERSION...
+string
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: string
+string
+Final Type: string
+
+Name: VERSION Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: cancelled
+Finding type for cancelled...
+mapping(bytes32 => bool)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(bytes32 => bool)
+mapping(bytes32 => bool)
+bool
+Final Type: bool
+
+Name: cancelled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: domain
+Finding type for domain...
+bytes32
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: bytes32
+bytes32
+Final Type: bytes32
+
+Name: domain Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: withdrawals
+Finding type for withdrawals...
+mapping(address => uint256)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(address => uint256)
+mapping(address => uint256)
+uint256
+Final Type: uint256
+
+Name: withdrawals Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: Balance
+Finding type for Balance...
+mapping(address => uint256)
+Check copy_toekn_tuple
+(1, -1, 0, None, 1)
+----
+Type: mapping(address => uint256)
+mapping(address => uint256)
+uint256
+Final Type: uint256
+
+Name: Balance Function: global
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: net balance
+[*]Type fetched successfully
+Reading Function: blockWithdrawal
+Function blockWithdrawal not marked
+Reading Function: withdraw
+wooo
+State_var: fenominator
+Finding type for fenominator...
+uint16[]
+Check copy_toekn_tuple
+([-1], [-1], ['u'], None, 10)
+----
+Type: uint16[]
+uint16[]
+uint16
+Final Type: uint16
+
+Name: fenominator Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: compound fee ratio (t)
+[*]Type fetched successfully
+State_var: filled
+Finding type for filled...
+mapping(bytes32 => uint256)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(bytes32 => uint256)
+mapping(bytes32 => uint256)
+uint256
+Final Type: uint256
+
+Name: filled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: marketPlace
+Finding type for marketPlace...
+address
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: address
+address
+Final Type: address
+
+Name: marketPlace Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: admin
+Finding type for admin...
+address
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: address
+address
+Final Type: address
+
+Name: admin Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: HOLD
+Finding type for HOLD...
+uint256
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: uint256
+uint256
+Final Type: uint256
+
+Name: HOLD Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: NAME
+Finding type for NAME...
+string
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: string
+string
+Final Type: string
+
+Name: NAME Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: VERSION
+Finding type for VERSION...
+string
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: string
+string
+Final Type: string
+
+Name: VERSION Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: cancelled
+Finding type for cancelled...
+mapping(bytes32 => bool)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(bytes32 => bool)
+mapping(bytes32 => bool)
+bool
+Final Type: bool
+
+Name: cancelled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: domain
+Finding type for domain...
+bytes32
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: bytes32
+bytes32
+Final Type: bytes32
+
+Name: domain Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: withdrawals
+Finding type for withdrawals...
+mapping(address => uint256)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(address => uint256)
+mapping(address => uint256)
+uint256
+Final Type: uint256
+
+Name: withdrawals Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: Balance
+Finding type for Balance...
+mapping(address => uint256)
+Check copy_toekn_tuple
+(1, -1, 0, None, 1)
+----
+Type: mapping(address => uint256)
+mapping(address => uint256)
+uint256
+Final Type: uint256
+
+Name: Balance Function: global
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: net balance
+[*]Type fetched successfully
+Reading Function: setFee
+Function setFee not marked
+Reading Function: splitUnderlying
+wooo
+State_var: fenominator
+Finding type for fenominator...
+uint16[]
+Check copy_toekn_tuple
+([-1], [-1], ['u'], None, 10)
+----
+Type: uint16[]
+uint16[]
+uint16
+Final Type: uint16
+
+Name: fenominator Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: compound fee ratio (t)
+[*]Type fetched successfully
+State_var: filled
+Finding type for filled...
+mapping(bytes32 => uint256)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(bytes32 => uint256)
+mapping(bytes32 => uint256)
+uint256
+Final Type: uint256
+
+Name: filled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: marketPlace
+Finding type for marketPlace...
+address
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: address
+address
+Final Type: address
+
+Name: marketPlace Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: admin
+Finding type for admin...
+address
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: address
+address
+Final Type: address
+
+Name: admin Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: HOLD
+Finding type for HOLD...
+uint256
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: uint256
+uint256
+Final Type: uint256
+
+Name: HOLD Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: NAME
+Finding type for NAME...
+string
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: string
+string
+Final Type: string
+
+Name: NAME Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: VERSION
+Finding type for VERSION...
+string
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: string
+string
+Final Type: string
+
+Name: VERSION Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: cancelled
+Finding type for cancelled...
+mapping(bytes32 => bool)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(bytes32 => bool)
+mapping(bytes32 => bool)
+bool
+Final Type: bool
+
+Name: cancelled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: domain
+Finding type for domain...
+bytes32
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: bytes32
+bytes32
+Final Type: bytes32
+
+Name: domain Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: withdrawals
+Finding type for withdrawals...
+mapping(address => uint256)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(address => uint256)
+mapping(address => uint256)
+uint256
+Final Type: uint256
+
+Name: withdrawals Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: Balance
+Finding type for Balance...
+mapping(address => uint256)
+Check copy_toekn_tuple
+(1, -1, 0, None, 1)
+----
+Type: mapping(address => uint256)
+mapping(address => uint256)
+uint256
+Final Type: uint256
+
+Name: Balance Function: global
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: net balance
+[*]Type fetched successfully
+Reading Function: combineTokens
+wooo
+State_var: fenominator
+Finding type for fenominator...
+uint16[]
+Check copy_toekn_tuple
+([-1], [-1], ['u'], None, 10)
+----
+Type: uint16[]
+uint16[]
+uint16
+Final Type: uint16
+
+Name: fenominator Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: compound fee ratio (t)
+[*]Type fetched successfully
+State_var: filled
+Finding type for filled...
+mapping(bytes32 => uint256)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(bytes32 => uint256)
+mapping(bytes32 => uint256)
+uint256
+Final Type: uint256
+
+Name: filled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: marketPlace
+Finding type for marketPlace...
+address
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: address
+address
+Final Type: address
+
+Name: marketPlace Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: admin
+Finding type for admin...
+address
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: address
+address
+Final Type: address
+
+Name: admin Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: HOLD
+Finding type for HOLD...
+uint256
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: uint256
+uint256
+Final Type: uint256
+
+Name: HOLD Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: NAME
+Finding type for NAME...
+string
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: string
+string
+Final Type: string
+
+Name: NAME Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: VERSION
+Finding type for VERSION...
+string
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: string
+string
+Final Type: string
+
+Name: VERSION Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: cancelled
+Finding type for cancelled...
+mapping(bytes32 => bool)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(bytes32 => bool)
+mapping(bytes32 => bool)
+bool
+Final Type: bool
+
+Name: cancelled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: domain
+Finding type for domain...
+bytes32
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: bytes32
+bytes32
+Final Type: bytes32
+
+Name: domain Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: withdrawals
+Finding type for withdrawals...
+mapping(address => uint256)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(address => uint256)
+mapping(address => uint256)
+uint256
+Final Type: uint256
+
+Name: withdrawals Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: Balance
+Finding type for Balance...
+mapping(address => uint256)
+Check copy_toekn_tuple
+(1, -1, 0, None, 1)
+----
+Type: mapping(address => uint256)
+mapping(address => uint256)
+uint256
+Final Type: uint256
+
+Name: Balance Function: global
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: net balance
+[*]Type fetched successfully
+Reading Function: redeemZcToken
+wooo
+State_var: fenominator
+Finding type for fenominator...
+uint16[]
+Check copy_toekn_tuple
+([-1], [-1], ['u'], None, 10)
+----
+Type: uint16[]
+uint16[]
+uint16
+Final Type: uint16
+
+Name: fenominator Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: compound fee ratio (t)
+[*]Type fetched successfully
+State_var: filled
+Finding type for filled...
+mapping(bytes32 => uint256)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(bytes32 => uint256)
+mapping(bytes32 => uint256)
+uint256
+Final Type: uint256
+
+Name: filled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: marketPlace
+Finding type for marketPlace...
+address
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: address
+address
+Final Type: address
+
+Name: marketPlace Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: admin
+Finding type for admin...
+address
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: address
+address
+Final Type: address
+
+Name: admin Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: HOLD
+Finding type for HOLD...
+uint256
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: uint256
+uint256
+Final Type: uint256
+
+Name: HOLD Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: NAME
+Finding type for NAME...
+string
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: string
+string
+Final Type: string
+
+Name: NAME Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: VERSION
+Finding type for VERSION...
+string
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: string
+string
+Final Type: string
+
+Name: VERSION Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: cancelled
+Finding type for cancelled...
+mapping(bytes32 => bool)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(bytes32 => bool)
+mapping(bytes32 => bool)
+bool
+Final Type: bool
+
+Name: cancelled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: domain
+Finding type for domain...
+bytes32
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: bytes32
+bytes32
+Final Type: bytes32
+
+Name: domain Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: withdrawals
+Finding type for withdrawals...
+mapping(address => uint256)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(address => uint256)
+mapping(address => uint256)
+uint256
+Final Type: uint256
+
+Name: withdrawals Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: Balance
+Finding type for Balance...
+mapping(address => uint256)
+Check copy_toekn_tuple
+(1, -1, 0, None, 1)
+----
+Type: mapping(address => uint256)
+mapping(address => uint256)
+uint256
+Final Type: uint256
+
+Name: Balance Function: global
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: net balance
+[*]Type fetched successfully
+Reading Function: redeemVaultInterest
+wooo
+State_var: fenominator
+Finding type for fenominator...
+uint16[]
+Check copy_toekn_tuple
+([-1], [-1], ['u'], None, 10)
+----
+Type: uint16[]
+uint16[]
+uint16
+Final Type: uint16
+
+Name: fenominator Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: compound fee ratio (t)
+[*]Type fetched successfully
+State_var: filled
+Finding type for filled...
+mapping(bytes32 => uint256)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(bytes32 => uint256)
+mapping(bytes32 => uint256)
+uint256
+Final Type: uint256
+
+Name: filled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: marketPlace
+Finding type for marketPlace...
+address
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: address
+address
+Final Type: address
+
+Name: marketPlace Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: admin
+Finding type for admin...
+address
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: address
+address
+Final Type: address
+
+Name: admin Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: HOLD
+Finding type for HOLD...
+uint256
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: uint256
+uint256
+Final Type: uint256
+
+Name: HOLD Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: NAME
+Finding type for NAME...
+string
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: string
+string
+Final Type: string
+
+Name: NAME Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: VERSION
+Finding type for VERSION...
+string
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: string
+string
+Final Type: string
+
+Name: VERSION Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: cancelled
+Finding type for cancelled...
+mapping(bytes32 => bool)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(bytes32 => bool)
+mapping(bytes32 => bool)
+bool
+Final Type: bool
+
+Name: cancelled Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: domain
+Finding type for domain...
+bytes32
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: bytes32
+bytes32
+Final Type: bytes32
+
+Name: domain Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: withdrawals
+Finding type for withdrawals...
+mapping(address => uint256)
+Check copy_toekn_tuple
+(-1, -1, 'u', None, -1)
+----
+Type: mapping(address => uint256)
+mapping(address => uint256)
+uint256
+Final Type: uint256
+
+Name: withdrawals Function: global
+Num: -1
+Den: -1
+Norm: u
+LF: None
+Fields: 
+Finance Type: undef
+[*]Type fetched successfully
+State_var: Balance
+Finding type for Balance...
+mapping(address => uint256)
+Check copy_toekn_tuple
+(1, -1, 0, None, 1)
+----
+Type: mapping(address => uint256)
+mapping(address => uint256)
+uint256
+Final Type: uint256
+
+Name: Balance Function: global
+Num: 1
+Den: -1
+Norm: 0
+LF: None
+Fields: 
+Finance Type: net balance
+[*]Type fetched successfully
+Reading Function: validOrderHash
+Function validOrderHash not marked
+Reading Function: slitherConstructorConstantVariables
+Function slitherConstructorConstantVariables not marked
+Errors: [<slither.slithir.variables.reference_ssa.ReferenceVariableSSA object at 0x7fb2d73e1d60>, <slither.slithir.variables.reference_ssa.ReferenceVariableSSA object at 0x7fb2d736b040>]

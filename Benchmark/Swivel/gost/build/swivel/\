@@ -1,0 +1,28 @@
+[*c], Swivel
+[sef], Hash, order
+[sef], Hash, message
+[sef], Sig, recover
+initiate
+[xf], exit
+[xf], cancel
+[xf], scheduleWithdrawal
+[xf], withdraw
+[xf], splitUnderlying
+[xf], combineTokens
+[xf], redeemZcToken
+[xf], redeemVaultInterest
+[t], global, marketPlace
+[tref], fenominator
+[t], global, filled
+[t], global, cancelled
+[t], global, domain
+[t], global, admin
+[t], global, HOLD
+[t], global, Balance, 1, -1, 0
+[t], global, withdrawals
+[t], global, NAME
+[t], global, VERSION
+[t], initiate, o
+[t], exitVaultFillingVaultInitiate, o
+[t], exitVaultFillingVaultInitiate, a, 1, -1, 0
+[t], exitVaultFillingVaultInitiate, c
